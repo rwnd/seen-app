@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+data/results/*
+!data/results/.gitkeep
+.DS_Store
+*.mp3
+*.png
+!static/images/narrators/.gitkeep
+!static/images/archetypes/.gitkeep

@@ -1,0 +1,465 @@
+{
+  "_comment": "Edit this file directly or run scripts/generate_archetypes.py. See docs/EDITING_DATA.md",
+  "categories": [
+    "Leaders",
+    "Advocates",
+    "Enthusiasts",
+    "Givers",
+    "Architects",
+    "Producers",
+    "Creators",
+    "Seekers",
+    "Fighters",
+    "Individualist"
+  ],
+  "archetypes": {
+    "commander": {
+      "name": "Commander",
+      "category": "Leaders",
+      "slug": "commander",
+      "tagline": "Driven to achieve goals through determination and high standards",
+      "core_wound": "Confuses control with care; equates softness with weakness",
+      "description": "Commanders are driven to achieve goals through determination and holding themselves and others to high standards of performance.",
+      "questions": {
+        "identity": "What does being a Commander feel like from the inside — what quality in yourself are you most proud of that others rarely see?",
+        "memory": "Describe a moment when your determination either saved something important — or cost you something you didn't expect to lose.",
+        "unsaid": "What do you know about yourself as a leader that you have never admitted out loud, even to yourself?",
+        "fear": "When was the last time you let someone see you lose — and what did it cost you to hide it?"
+      },
+      "image_direction": "A lone general standing in an empty war room, maps on the table, no one left to command, single light source",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "shaper": {
+      "name": "Shaper",
+      "category": "Leaders",
+      "slug": "shaper",
+      "tagline": "Visualizes ambitious goals and pushes through relentlessly",
+      "core_wound": "Self-worth is entirely fused with the magnitude of their output",
+      "description": "Shapers visualize ambitious goals and push through obstacles with relentless drive, measuring themselves by the scale of what they build.",
+      "questions": {
+        "identity": "When you picture your best self, what are you holding in your hands — and who is watching?",
+        "memory": "Describe a project you pushed through that proved something to you — and whether it was worth what it took.",
+        "unsaid": "What would you have to admit if your current ambition failed tomorrow?",
+        "fear": "What are you building right now that you secretly suspect you're doing to prove something — not because you actually want it?"
+      },
+      "image_direction": "A sculptor chiseling away at a statue that keeps growing larger than the room",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "quietleader": {
+      "name": "Quiet Leader",
+      "category": "Leaders",
+      "slug": "quietleader",
+      "tagline": "Leads through open-mindedness and equanimity",
+      "core_wound": "Carries enormous internal clarity that almost never gets spoken aloud",
+      "description": "Quiet Leaders lead through open-mindedness and equanimity, guiding others with calm presence rather than forceful direction.",
+      "questions": {
+        "identity": "What quality of stillness in yourself do you trust most when everything around you is loud?",
+        "memory": "Describe a time your quiet leadership changed an outcome — and whether anyone knew it was you.",
+        "unsaid": "What would change in your life if you spoke with half the clarity you think with?",
+        "fear": "What is something true about your situation that you have fully understood but never said out loud to anyone — and why haven't you said it?"
+      },
+      "image_direction": "A lighthouse, fully lit, surrounded by fog — ships guided but never seeing the source",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "inspirer": {
+      "name": "Inspirer",
+      "category": "Advocates",
+      "slug": "inspirer",
+      "tagline": "Motivates people to get behind challenging ideas",
+      "core_wound": "Believes in the vision so hard they forget to check if others actually followed",
+      "description": "Inspirers motivate people to get behind challenging ideas, carrying conviction that can outpace the room's actual commitment.",
+      "questions": {
+        "identity": "What part of you lights up when someone finally grasps the vision you've been carrying?",
+        "memory": "Describe a moment you rallied people — and the first sign you weren't sure they were with you.",
+        "unsaid": "What would you stop doing if you couldn't inspire anyone this week?",
+        "fear": "Who are you inspiring right now who you secretly fear isn't as committed as you need them to be?"
+      },
+      "image_direction": "A conductor mid-symphony, turning to find half the orchestra has left their chairs",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "campaigner": {
+      "name": "Campaigner",
+      "category": "Advocates",
+      "slug": "campaigner",
+      "tagline": "Rallies others around ideas and achieves practical results",
+      "core_wound": "Momentum becomes identity; stopping feels like dying",
+      "description": "Campaigners rally others around ideas and drive toward practical results, often finding that motion itself becomes who they are.",
+      "questions": {
+        "identity": "What does momentum feel like in your body when a cause is actually working?",
+        "memory": "Describe a campaign that succeeded — and whether you felt emptied or alive afterward.",
+        "unsaid": "Who would you be if you stopped campaigning for six months?",
+        "fear": "What cause or mission are you still fighting for that you privately wonder if you even believe in anymore?"
+      },
+      "image_direction": "A lone figure still holding a banner in an empty field after the crowd has gone",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "coach": {
+      "name": "Coach",
+      "category": "Advocates",
+      "slug": "coach",
+      "tagline": "Focused on self-growth, development and teaching others",
+      "core_wound": "Identity built entirely around being needed; forgets their own needs exist",
+      "description": "Coaches are focused on growth, development, and teaching others — often building identity around being the one who holds things together.",
+      "questions": {
+        "identity": "What do you love most about watching someone else grow — and when did you last feel that for yourself?",
+        "memory": "Describe a time you coached someone brilliantly and neglected yourself in the same week.",
+        "unsaid": "What need of yours have you reframed as 'just helping others'?",
+        "fear": "Think of the person you're currently carrying the most weight for. What part of yourself have you quietly set aside to make room for them?"
+      },
+      "image_direction": "A pair of hands holding up a growing tree, roots slowly wrapping around the wrists",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "promoter": {
+      "name": "Promoter",
+      "category": "Enthusiasts",
+      "slug": "promoter",
+      "tagline": "Outgoing, charismatic, skilled with people",
+      "core_wound": "The performance of enthusiasm can become a prison — exhausting to maintain, terrifying to drop",
+      "description": "Promoters are outgoing and charismatic, skilled at energizing rooms — but the performance of enthusiasm can become exhausting to maintain.",
+      "questions": {
+        "identity": "What version of you shows up when you don't have to win anyone over?",
+        "memory": "Describe a time the room went quiet and you weren't sure who you were without the applause.",
+        "unsaid": "What would people think if they saw you on a day you couldn't perform?",
+        "fear": "When you are completely alone and the performance is off — what does the silence feel like?"
+      },
+      "image_direction": "A stage with one spotlight still lit, audience gone, performer sitting at the edge",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "impresario": {
+      "name": "Impresario",
+      "category": "Enthusiasts",
+      "slug": "impresario",
+      "tagline": "Entertains, engages socially, facilitates great experiences",
+      "core_wound": "Confuses the quality of the experience they create with the quality of their own worth",
+      "description": "Impresarios entertain, engage socially, and facilitate memorable experiences — sometimes mistaking the quality of what they create for their own worth.",
+      "questions": {
+        "identity": "When you create a perfect evening for others, what are you hoping they'll feel about you?",
+        "memory": "Describe an event you orchestrated that went beautifully — and how you felt when everyone left.",
+        "unsaid": "Who would still want you around if you offered nothing but your presence?",
+        "fear": "What would happen to your relationships if you stopped making things memorable for people?"
+      },
+      "image_direction": "An empty banquet hall, perfectly set, waiting for guests who may not come",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "entertainer": {
+      "name": "Entertainer",
+      "category": "Enthusiasts",
+      "slug": "entertainer",
+      "tagline": "Creates experiences and engages with the world",
+      "core_wound": "Humor and performance as armor — the joke is always ready before the vulnerability can surface",
+      "description": "Entertainers create experiences and engage with the world through performance — often with humor ready before vulnerability can surface.",
+      "questions": {
+        "identity": "What do you feel when the room is laughing — and what do you feel when the room goes quiet?",
+        "memory": "Describe a moment you made everyone laugh and went home feeling hollow.",
+        "unsaid": "What truth have you never told because you always had a punchline ready?",
+        "fear": "What's the thing you deflect with a laugh that, if you sat with it quietly, would actually break you open?"
+      },
+      "image_direction": "A jester mask hanging on a nail, the face behind it blurred and undefined",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "peacekeeper": {
+      "name": "Peacekeeper",
+      "category": "Givers",
+      "slug": "peacekeeper",
+      "tagline": "Develops positive relationships, seeks harmony and cooperation",
+      "core_wound": "Conflict-avoidance masquerading as kindness; they disappear themselves to keep the room comfortable",
+      "description": "Peacekeepers develop positive relationships and seek harmony, sometimes disappearing themselves to keep rooms comfortable.",
+      "questions": {
+        "identity": "When harmony is restored, what part of you feels most relieved — and what part feels most erased?",
+        "memory": "Describe a time you kept the peace and lost something true about yourself in the process.",
+        "unsaid": "What disagreement are you avoiding that would actually set you free?",
+        "fear": "What do you actually think — about a situation you've been nodding through — that you have never let yourself say?"
+      },
+      "image_direction": "A bridge over turbulent water, perfectly maintained, slightly cracked at the center",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "problemsolver": {
+      "name": "Problem Solver",
+      "category": "Givers",
+      "slug": "problemsolver",
+      "tagline": "Supports and helps others in an industrious, professional way",
+      "core_wound": "Helping is safe; being helped is terrifying — receiving care feels like losing ground",
+      "description": "Problem Solvers support others industriously and professionally — finding that helping is safe while being helped feels like losing ground.",
+      "questions": {
+        "identity": "What problem do you solve for others that you wish someone would solve for you?",
+        "memory": "Describe a time you fixed everything for everyone and collapsed when no one noticed.",
+        "unsaid": "What would it cost your identity to let someone take care of you?",
+        "fear": "Who in your life keeps offering you something — support, rest, help — that you keep refusing? What are you protecting by refusing it?"
+      },
+      "image_direction": "A toolbox overflowing, the hands holding it bleeding slightly at the palms",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "helper": {
+      "name": "Helper",
+      "category": "Givers",
+      "slug": "helper",
+      "tagline": "Compassion, care, support of emotional needs",
+      "core_wound": "Love expressed through service rather than presence — giving so no one looks too closely at what they need",
+      "description": "Helpers express love through service and emotional care — giving so generously that no one looks too closely at what they need.",
+      "questions": {
+        "identity": "When you help someone, what do you hope they'll never have to see about you?",
+        "memory": "Describe a time you gave everything you had and still felt unseen.",
+        "unsaid": "What do you need that you've disguised as generosity?",
+        "fear": "If the person you love most could only receive one true thing from you — not help, not effort, just you — what would that be, and why is it so hard to give?"
+      },
+      "image_direction": "An open door with warm light spilling out, the person standing just outside it, never stepping in",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "strategist": {
+      "name": "Strategist",
+      "category": "Architects",
+      "slug": "strategist",
+      "tagline": "Generates and translates concepts into effective strategies",
+      "core_wound": "Intelligence used as distance — thinking about the problem instead of feeling it",
+      "description": "Strategists generate concepts and translate them into effective strategies — sometimes using intelligence as distance from feeling.",
+      "questions": {
+        "identity": "When you see the whole board clearly, what feeling do you push aside to keep thinking?",
+        "memory": "Describe a strategy you mapped brilliantly that you never had the courage to execute.",
+        "unsaid": "What are you afraid would happen if you stopped analyzing and simply moved?",
+        "fear": "What is the thing in your life you have analyzed perfectly and acted on least — and what does that gap tell you?"
+      },
+      "image_direction": "An intricate chessboard fully solved, the player staring at it, unable to make the first move",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "planner": {
+      "name": "Planner",
+      "category": "Architects",
+      "slug": "planner",
+      "tagline": "Structure, systems, translating ideas into plans",
+      "core_wound": "Certainty addiction — the plan is a defense against the terror of irreversible action",
+      "description": "Planners create structure and systems, translating ideas into plans — sometimes using certainty as defense against irreversible action.",
+      "questions": {
+        "identity": "What does a perfect plan give you that acting never could?",
+        "memory": "Describe a plan you refined for months that became a reason never to begin.",
+        "unsaid": "What decision are you postponing by calling it 'not ready yet'?",
+        "fear": "What are you still planning that would feel unsafe even if everything went exactly right?"
+      },
+      "image_direction": "An architect's blueprints spread across a table, the foundation already crumbling beneath it",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "orchestrator": {
+      "name": "Orchestrator",
+      "category": "Architects",
+      "slug": "orchestrator",
+      "tagline": "Brings people together and mobilizes resources",
+      "core_wound": "Invisible to themselves in their own system — so focused on moving pieces they forget they're a piece too",
+      "description": "Orchestrators bring people together and mobilize resources — so focused on moving pieces they forget they're a piece too.",
+      "questions": {
+        "identity": "When everything is coordinated, where do you stand in the picture you've built?",
+        "memory": "Describe a time you held everything together and realized no one was holding you.",
+        "unsaid": "What would fall apart if you stopped orchestrating for one week?",
+        "fear": "In all the systems and people you're organizing right now — where do you actually fit? Not as a role. As a person."
+      },
+      "image_direction": "The center of a clock mechanism, every gear turning, the center axle standing perfectly still and alone",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "implementer": {
+      "name": "Implementer",
+      "category": "Producers",
+      "slug": "implementer",
+      "tagline": "Organizes and structures people and processes to execute",
+      "core_wound": "Execution as escape — staying busy means never having to ask if this is what they actually want",
+      "description": "Implementers organize people and processes to execute — staying busy can mean never asking if this is what they actually want.",
+      "questions": {
+        "identity": "What does finishing something feel like — relief, proof, or escape?",
+        "memory": "Describe a project you executed flawlessly that left you wondering why you did it.",
+        "unsaid": "What desire have you buried under the next task list?",
+        "fear": "If you stopped executing for 30 days and could only think — what question would surface that you've been too busy to ask yourself?"
+      },
+      "image_direction": "A long corridor of open doors, each completed and closed, one door at the end slightly ajar",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "investigator": {
+      "name": "Investigator",
+      "category": "Producers",
+      "slug": "investigator",
+      "tagline": "Researches and analyzes to build knowledge",
+      "core_wound": "The need to fully understand before acting — knowledge as permission they never quite grant themselves",
+      "description": "Investigators research and analyze to build knowledge — needing to fully understand before acting, as if knowledge were permission they never grant.",
+      "questions": {
+        "identity": "When you learn something new, what old question does it quiet — and for how long?",
+        "memory": "Describe the moment you knew enough to act and chose to read one more article instead.",
+        "unsaid": "What permission are you waiting for that only you can give?",
+        "fear": "What have you researched deeply and known clearly for a long time — and still not acted on? What are you still looking for?"
+      },
+      "image_direction": "A researcher at a desk surrounded by answered questions, one small blank piece of paper in the center",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "technician": {
+      "name": "Technician",
+      "category": "Producers",
+      "slug": "technician",
+      "tagline": "Breaks down, analyzes and solves problems technically",
+      "core_wound": "Precision as protection — if the mechanism is perfect, the human messiness around it can be ignored",
+      "description": "Technicians break down and solve problems technically — using precision as protection from human messiness.",
+      "questions": {
+        "identity": "When the system works perfectly, what human variable still unsettles you?",
+        "memory": "Describe a time you fixed the mechanism and the relationship still broke.",
+        "unsaid": "What mess in your life are you treating as a technical problem?",
+        "fear": "What problem in your life cannot be solved technically — and how long have you been pretending it can?"
+      },
+      "image_direction": "A perfectly calibrated machine with one organic element — a leaf, a hand — that keeps disrupting it",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "adventurer": {
+      "name": "Adventurer",
+      "category": "Creators",
+      "slug": "adventurer",
+      "tagline": "Seeks fun, exciting, adventurous activities",
+      "core_wound": "Motion as avoidance — as long as you're moving, you never have to arrive anywhere that requires you to stay",
+      "description": "Adventurers seek excitement and new experiences — motion as avoidance of arriving somewhere that requires them to stay.",
+      "questions": {
+        "identity": "What does the next adventure promise you that the present cannot?",
+        "memory": "Describe a trip or thrill that was supposed to change you — and what stayed the same when you returned.",
+        "unsaid": "What are you running toward that is actually something you're running from?",
+        "fear": "What would you have to confront about yourself if you stopped moving and stayed in one place for a year?"
+      },
+      "image_direction": "A map covered in routes and pins, one location circled and never visited",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "artisan": {
+      "name": "Artisan",
+      "category": "Creators",
+      "slug": "artisan",
+      "tagline": "Uses creativity to bring beautiful, well-crafted ideas to life",
+      "core_wound": "The work is never quite finished — because finished means judged, and judged means exposed",
+      "description": "Artisans use creativity to craft beautiful work — often keeping pieces unfinished because finished means judged, and judged means exposed.",
+      "questions": {
+        "identity": "When you refine one more detail, what judgment are you postponing?",
+        "memory": "Describe something you nearly released and pulled back at the last moment.",
+        "unsaid": "What would it mean about you if the work were seen and found ordinary?",
+        "fear": "What is something you've made — or almost made — that you've kept from the world? What are you protecting it from?"
+      },
+      "image_direction": "A painting covered by a cloth in a lit gallery, every other piece on the walls",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "inventor": {
+      "name": "Inventor",
+      "category": "Creators",
+      "slug": "inventor",
+      "tagline": "Generates new and innovative ideas, products and solutions",
+      "core_wound": "The next idea is always more exciting than the current one — completion is a kind of grief",
+      "description": "Inventors generate innovative ideas and solutions — often finding the next idea more exciting than completing the current one.",
+      "questions": {
+        "identity": "When a new idea arrives, what does it save you from feeling about the old one?",
+        "memory": "Describe an invention or project you abandoned the moment something shinier appeared.",
+        "unsaid": "What would you lose if you finished one thing completely?",
+        "fear": "What idea have you had — repeatedly, for years — that you have never committed to? What keeps making it feel 'not quite right yet'?"
+      },
+      "image_direction": "A workbench covered in brilliant half-finished inventions, one window looking out on the world",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "explorer": {
+      "name": "Explorer",
+      "category": "Seekers",
+      "slug": "explorer",
+      "tagline": "Seeks new knowledge and experiences with intrinsic motivation",
+      "core_wound": "Possibility addiction — commitment feels like the death of the self that might have been something else",
+      "description": "Explorers seek new knowledge and experiences — sometimes treating commitment as the death of selves they might have become.",
+      "questions": {
+        "identity": "What does an open door represent to you — freedom, or a way to never be found?",
+        "memory": "Describe a path you walked far enough to know it was right — and still walked away.",
+        "unsaid": "Which version of yourself are you protecting by never fully choosing?",
+        "fear": "What would you lose — about who you think you are — if you finally committed to one path and stopped leaving exits open?"
+      },
+      "image_direction": "A crossroads with ten paths visible, footprints going a few steps down each one, returning to center",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "thinker": {
+      "name": "Thinker",
+      "category": "Seekers",
+      "slug": "thinker",
+      "tagline": "Takes an abstract, philosophical approach to problems",
+      "core_wound": "Living in the mind as a way of avoiding the body and its inconvenient demands",
+      "description": "Thinkers take abstract, philosophical approaches — living in the mind as a way of avoiding the body's inconvenient demands.",
+      "questions": {
+        "identity": "When you understand something completely in theory, what part of living it frightens you?",
+        "memory": "Describe an insight that changed how you think but not how you act.",
+        "unsaid": "What would your body say if your mind stopped speaking for it?",
+        "fear": "What truth have you arrived at philosophically that your actual daily life completely contradicts?"
+      },
+      "image_direction": "A figure standing at the edge of a cliff, perfectly calm, a storm raging behind them they haven't noticed",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "growthseeker": {
+      "name": "Growth Seeker",
+      "category": "Seekers",
+      "slug": "growthseeker",
+      "tagline": "Deep passion for learning and personal development",
+      "core_wound": "Growth as identity — if you stop improving, who are you? The pursuit can become another form of running",
+      "description": "Growth Seekers have deep passion for learning and development — sometimes making improvement itself another form of running.",
+      "questions": {
+        "identity": "When you improve something about yourself, what old self are you trying to leave behind?",
+        "memory": "Describe a growth goal that became more important than the life you were living.",
+        "unsaid": "What if you didn't need to become anyone else — what would you do with that freedom?",
+        "fear": "What part of yourself have you been trying to fix or improve for so long that you've forgotten it might just be who you are?"
+      },
+      "image_direction": "A garden tended obsessively, every plant staked and pruned, one wild bloom in the corner left alone",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "protector": {
+      "name": "Protector",
+      "category": "Fighters",
+      "slug": "protector",
+      "tagline": "Upholds traditions, rules, standards, and personal duty",
+      "core_wound": "The rules they protect so fiercely are sometimes protecting them from having to change",
+      "description": "Protectors uphold traditions, rules, and standards — sometimes using duty as protection from having to change.",
+      "questions": {
+        "identity": "What do you protect that also protects you from having to grow?",
+        "memory": "Describe a time you held the line and wondered afterward who it was really for.",
+        "unsaid": "What rule would you break if no one you respect was watching?",
+        "fear": "What is something you have defended strongly — a belief, a standard, a way of doing things — that you have privately started to doubt?"
+      },
+      "image_direction": "An old wall, beautifully maintained, the landscape it was built to protect long since changed around it",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "enforcer": {
+      "name": "Enforcer",
+      "category": "Fighters",
+      "slug": "enforcer",
+      "tagline": "Engages through standards, rules, and traditions",
+      "core_wound": "Standards as a measuring stick they inevitably hold against themselves first",
+      "description": "Enforcers engage through standards and rules — inevitably holding the measuring stick against themselves first.",
+      "questions": {
+        "identity": "When you enforce a standard, whose approval are you secretly seeking?",
+        "memory": "Describe a time you held someone accountable and recognized the same flaw in yourself.",
+        "unsaid": "What standard do you enforce in others because you can't enforce it in yourself?",
+        "fear": "By your own standards — the ones you hold others to — where are you currently failing yourself, and what have you told yourself about why that's different?"
+      },
+      "image_direction": "A judge's scale, perfectly balanced, with one small stone hidden under the judge's own side",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "critic": {
+      "name": "Critic",
+      "category": "Fighters",
+      "slug": "critic",
+      "tagline": "Expresses opinions and debates perspectives",
+      "core_wound": "The sharpest critiques are often the ones they haven't yet aimed inward",
+      "description": "Critics express opinions and debate perspectives — often wielding sharpest critiques they haven't yet aimed inward.",
+      "questions": {
+        "identity": "When you spot what's wrong, what does that clarity protect you from feeling?",
+        "memory": "Describe a critique you gave that landed true — and stung because you recognized yourself.",
+        "unsaid": "What flaw in yourself do you keep finding in other people?",
+        "fear": "What critique do you give others frequently that, if you turned it fully on yourself, would be the most uncomfortable thing you could hear?"
+      },
+      "image_direction": "A mirror cracked at the center, reflecting everything perfectly except the face looking into it",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    },
+    "individualist": {
+      "name": "Individualist",
+      "category": "Individualist",
+      "slug": "individualist",
+      "tagline": "Marches to their own beat with unique self-expression",
+      "core_wound": "Originality as armor — being different is safe; being ordinary and vulnerable is terrifying",
+      "description": "Individualists march to their own beat with unique self-expression — sometimes using originality as armor against ordinary vulnerability.",
+      "questions": {
+        "identity": "What part of being different feels most authentically you — and what part is performance?",
+        "memory": "Describe a time you chose the unique path and secretly wished someone would walk it with you.",
+        "unsaid": "What ordinary desire have you disguised as individuality?",
+        "fear": "Underneath the part of you that insists on being different — what do you want that is embarrassingly simple and ordinary?"
+      },
+      "image_direction": "A figure walking a completely unique path through a field, glancing sideways at the ordinary road they've been avoiding",
+      "image_style": "cinematic graphic novel, ink illustration, dramatic shadows, no speech bubbles, no text"
+    }
+  }
+}

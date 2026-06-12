@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}SEEN — Your reflection{% endblock %}
+
+{% block content %}
+<div class="result-page">
+  <header class="narrator-reveal">
+    {% if result.narrator_photo %}
+    <img class="narrator-photo" src="/static/images/narrators/{{ result.narrator_photo }}" alt="">
+    {% else %}
+    <div class="narrator-avatar" style="background: {{ result.narrator_avatar_color }}">
+      {{ result.narrator_initials }}
+    </div>
+    {% endif %}
+    <div>
+      <p class="reflected-by">Reflected by {{ result.narrator_name }}</p>
+      <p class="signature-line">{{ result.narrator_signature_line }}</p>
+    </div>
+  </header>
+
+  <div id="autoplay-overlay" class="autoplay-overlay">
+    <button type="button" id="start-audio">Tap to hear your reflection</button>
+  </div>
+
+  <section class="audio-section">
+    <audio id="reflection-audio" src="/data/{{ result.audio_file }}" preload="auto"></audio>
+    <div class="audio-controls">
+      <button type="button" id="play-pause" class="play-btn" aria-label="Play">▶</button>
+      <div class="audio-track">
+        <div id="audio-progress" class="audio-progress"></div>
+      </div>
+    </div>
+    <p id="audio-status" class="audio-status">Ready to play</p>
+  </section>
+
+  <div class="tab-bar">
+    <button type="button" class="tab active" data-tab="listen">Listen</button>
+    <button type="button" class="tab" data-tab="read">Read</button>
+  </div>
+
+  <section id="tab-listen" class="tab-panel active">
+    <p class="reflection-text dim">{{ result.reflection }}</p>
+  </section>
+  <section id="tab-read" class="tab-panel">
+    <p class="reflection-text">{{ result.reflection }}</p>
+  </section>
+
+  <section class="comic-section">
+    <img class="comic-img" src="/data/{{ result.comic_file }}" alt="Your reflection in four panels">
+    <p class="comic-caption">Your reflection, in four panels</p>
+  </section>
+
+  <blockquote class="the-line">
+    <span class="quote-mark">"</span>{{ result.the_line }}<span class="quote-mark">"</span>
+  </blockquote>
+  <p class="archetype-footer">A reflection for the {{ result.archetype_name }}</p>
+
+  <div class="result-actions">
+    <a href="/" class="btn-secondary">Reflect again</a>
+    <a href="/gallery" class="btn-secondary">View gallery</a>
+    <button type="button" id="share-btn" class="btn-secondary">Share link</button>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/result.js"></script>
+{% endblock %}

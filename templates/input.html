@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}SEEN — Reflect{% endblock %}
+
+{% block content %}
+<div class="input-page">
+  <header class="page-header">
+    <h1>Be seen</h1>
+    <p class="subtitle">Choose your archetype, answer honestly, pick a voice.</p>
+  </header>
+
+  <form id="reflect-form" method="post" action="/reflect">
+    <input type="hidden" name="archetype_slug" id="archetype_slug">
+    <input type="hidden" name="question_category" id="question_category">
+    <input type="hidden" name="narrator_slug" id="narrator_slug">
+
+    <section class="form-section" id="section-archetype">
+      <label for="archetype-select">Your PrinciplesYou archetype</label>
+      <select id="archetype-select">
+        <option value="">Select an archetype…</option>
+        {% for category in categories %}
+        <optgroup label="{{ category }}">
+          {% for slug, a in archetypes.items() if a.category == category %}
+          <option value="{{ slug }}">{{ a.name }}</option>
+          {% endfor %}
+        </optgroup>
+        {% endfor %}
+      </select>
+      <div id="archetype-card" class="archetype-card hidden">
+        <img id="archetype-img" src="" alt="">
+        <div>
+          <h3 id="archetype-name"></h3>
+          <p id="archetype-tagline"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section hidden" id="section-questions">
+      <p class="section-label">What would you like to reflect on?</p>
+      <div class="tile-grid tile-grid-2">
+        {% for key, label in question_labels.items() %}
+        <button type="button" class="tile question-tile" data-category="{{ key }}">{{ label }}</button>
+        {% endfor %}
+      </div>
+      <p id="question-text" class="question-text hidden"></p>
+    </section>
+
+    <section class="form-section hidden" id="section-response">
+      <label for="user_response" id="response-label"></label>
+      <textarea id="user_response" name="user_response" rows="5" placeholder="Take a breath. Be honest."></textarea>
+      <p class="char-count"><span id="char-count">0</span> characters (min 20)</p>
+    </section>
+
+    <section class="form-section hidden" id="section-narrator">
+      <p class="section-label">Who should witness this?</p>
+      <div class="tile-grid tile-grid-3">
+        {% for slug, n in narrators.items() %}
+        <button type="button" class="tile narrator-tile" data-slug="{{ slug }}">
+          <strong>{{ n.tone_label }}</strong>
+          <span>{{ n.tone_description }}</span>
+        </button>
+        {% endfor %}
+      </div>
+    </section>
+
+    <button type="submit" id="go-btn" class="go-btn" disabled>GO</button>
+  </form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const ARCHETYPES = {{ archetypes | tojson }};
+  const NARRATORS = {{ narrators | tojson }};
+</script>
+<script src="/static/input.js"></script>
+{% endblock %}

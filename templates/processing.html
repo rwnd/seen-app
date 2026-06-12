@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}SEEN — Witnessing{% endblock %}
+{% block body_class %}processing-body{% endblock %}
+
+{% block content %}
+<div class="processing-page">
+  <h1 class="witnessing">Witnessing…</h1>
+  <p id="processing-phrase" class="processing-phrase">Reading between your words…</p>
+  <div class="progress-bar"><div class="progress-fill"></div></div>
+  <p id="processing-error" class="processing-error hidden"></p>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  window.SEEN_UUID = {{ uuid | tojson }};
+</script>
+<script src="/static/processing.js"></script>
+{% endblock %}
