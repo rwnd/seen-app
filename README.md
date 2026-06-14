@@ -51,16 +51,21 @@ Archetype names, categories, and descriptions align with PrinciplesYou. If you f
 
 ---
 
-<p align="center">
-  <video src="docs/assets/demo.mp4" width="720" controls playsinline>
-    Your browser does not support HTML5 video.
-    <a href="docs/assets/demo.mp4">Download the demo video</a>.
-  </video>
-</p>
+## Demo
+
+<div align="center">
+
+https://github.com/rwnd/seen-app/releases/download/demo-v1/demo-github.mp4
+
+</div>
 
 <p align="center">
   <em>Pick an archetype → answer one honest question → choose a narrator → receive a reflection, comic page, and voice.</em>
 </p>
+
+**Download:** [demo-github.mp4](https://github.com/rwnd/seen-app/releases/download/demo-v1/demo-github.mp4) · **Run locally:** [http://localhost:8000/docs-assets/demo.mp4](http://localhost:8000/docs-assets/demo.mp4)
+
+> GitHub README cannot play `<video src="docs/assets/...">` from the repo. The embedded player above uses a [release asset](https://github.com/rwnd/seen-app/releases/tag/demo-v1) on GitHub's CDN (must be under 10 MB). The same file lives in `docs/assets/demo.mp4` for local serving.
 
 ---
 
@@ -72,13 +77,6 @@ Archetype names, categories, and descriptions align with PrinciplesYou. If you f
 | **The line** | One sentence you'll remember — the emotional punchline |
 | **Your page** | A 4-panel portrait comic with captions and narrator speech |
 | **Voice** | The full reflection spoken by a cloned narrator ([Voicebox](http://127.0.0.1:17493)) or OpenAI TTS |
-
----
-
-## Demo
-
-**Watch:** [docs/assets/demo.mp4](docs/assets/demo.mp4)  
-**Run locally:** after starting the server, open [http://localhost:8000/docs-assets/demo.mp4](http://localhost:8000/docs-assets/demo.mp4)
 
 ---
 
