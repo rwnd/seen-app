@@ -54,7 +54,9 @@ Archetype names, categories, and descriptions align with PrinciplesYou. If you f
 ## Demo
 
 <div align="center">
-  <video src="https://raw.githubusercontent.com/rwnd/seen-app/main/docs/assets/demo.mp4" controls width="720"></video>
+
+![SEEN demo](https://github.com/rwnd/seen-app/releases/download/demo-v1/demo-github.mp4)
+
 </div>
 
 <p align="center">
@@ -63,7 +65,7 @@ Archetype names, categories, and descriptions align with PrinciplesYou. If you f
 
 **Download:** [demo-github.mp4](https://github.com/rwnd/seen-app/releases/download/demo-v1/demo-github.mp4) · **Run locally:** [http://localhost:8000/docs-assets/demo.mp4](http://localhost:8000/docs-assets/demo.mp4)
 
-> GitHub README cannot play `<video src="docs/assets/...">` from the repo tree. The player above uses a [release asset](https://github.com/rwnd/seen-app/releases/tag/demo-v1) on GitHub's CDN (under 10 MB). The same file lives in `docs/assets/demo.mp4` for local serving.
+> GitHub README cannot inline-play `<video src="docs/assets/...">` from the repo tree. The clip above is served from a [release asset](https://github.com/rwnd/seen-app/releases/tag/demo-v1) (compressed to under 10 MB). The same file lives in `docs/assets/demo.mp4` for local serving.
 
 ---
 
