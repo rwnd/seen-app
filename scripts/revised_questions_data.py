@@ -1,0 +1,956 @@
+"""Revised SEEN questions with starter phrases for all 28 archetypes."""
+
+REVISED_QUESTIONS = {
+    "commander": {
+        "identity": {
+            "text": "What's one thing you're tougher on yourself about than anyone else would be?",
+            "starters": [
+                "I hold myself to a standard most people don't know about, which is...",
+                "The thing I never let slide in myself is...",
+                "If people saw how hard I judge myself, they'd be surprised by...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you're holding together right now that nobody knows is actually hard?",
+            "starters": [
+                "The thing that looks effortless from the outside but is costing me...",
+                "I haven't told anyone that I'm struggling with...",
+                "Most people think I'm fine with it, but honestly...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment when being in charge cost you something personal.",
+            "starters": [
+                "I made the call and it was right, but I lost...",
+                "There was a moment I chose the mission over...",
+                "I got the outcome I wanted, but afterward I felt...",
+            ],
+        },
+        "unsaid": {
+            "text": "What's something you'd only admit about yourself when nobody's watching?",
+            "starters": [
+                "Honestly, I'm more uncertain about this than I look...",
+                "I don't know if I actually want what I'm driving toward...",
+                "The truth is I'm tired of...",
+            ],
+        },
+    },
+    "shaper": {
+        "identity": {
+            "text": "What's something you've built or changed that you're genuinely proud of, even if nobody noticed?",
+            "starters": [
+                "Something I quietly changed that mattered to me was...",
+                "I built something no one celebrated, but it meant everything because...",
+                "The thing I'm most proud of that didn't get applause is...",
+            ],
+        },
+        "fear": {
+            "text": "What's the gap between what you're working on and what you actually want?",
+            "starters": [
+                "I'm putting energy into something right now that I'm not sure I actually want, which is...",
+                "The honest truth about my current goal is...",
+                "I think I'm doing this to prove something, and that something is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a time you pushed through something hard and got the result — but it felt different than you expected.",
+            "starters": [
+                "I achieved it and then felt...",
+                "I worked for it for months and when it happened, I realized...",
+                "I got what I wanted, but what I actually needed was...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you be doing if you weren't trying to prove anything to anyone?",
+            "starters": [
+                "If I'm honest, I'd probably be spending more time on...",
+                "Without the need to achieve, I think I'd actually want to...",
+                "The thing I keep putting off because it seems too small is...",
+            ],
+        },
+    },
+    "quietleader": {
+        "identity": {
+            "text": "What do people come to you for that you don't advertise?",
+            "starters": [
+                "People seem to find me when they need...",
+                "I've noticed that I'm often the one people turn to for...",
+                "Something I offer without trying is...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you understand clearly about your situation that you haven't said out loud yet?",
+            "starters": [
+                "I already know I need to...",
+                "The thing I haven't told anyone is that I can see...",
+                "I've been sitting with the knowledge that...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a time your calm made a difference but no one knew it was you.",
+            "starters": [
+                "The room was chaos and I just...",
+                "I held it together when everyone else...",
+                "I changed the outcome and nobody realized it was because I...",
+            ],
+        },
+        "unsaid": {
+            "text": "What's the thought you keep finishing in your head but never say out loud?",
+            "starters": [
+                "Something I keep thinking but never say is...",
+                "I know the answer to this situation, and it's...",
+                "I've been wanting to tell someone that...",
+            ],
+        },
+    },
+    "inspirer": {
+        "identity": {
+            "text": "What do you believe in that most people in your life don't fully share yet?",
+            "starters": [
+                "I genuinely believe that one day people will see...",
+                "The thing I'm most certain about that others doubt is...",
+                "I can see something coming that the people around me haven't noticed yet...",
+            ],
+        },
+        "fear": {
+            "text": "Who in your life right now are you not sure is actually with you?",
+            "starters": [
+                "I think I might be further ahead than the people I'm counting on...",
+                "There's someone I inspire who I'm not sure actually believes it, and that person is...",
+                "I've been pretending not to notice that...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a time you lit a room up — and then felt alone when it was over.",
+            "starters": [
+                "I gave everything in that moment and afterward I felt...",
+                "The energy was electric and then when people left, I realized...",
+                "I inspired everyone and then went home wondering...",
+            ],
+        },
+        "unsaid": {
+            "text": "What's the version of your vision you're afraid to say because it sounds too big?",
+            "starters": [
+                "What I actually believe is possible, but haven't said out loud, is...",
+                "The full version of my vision, without editing, is...",
+                "I've been saying a smaller version of what I really think because...",
+            ],
+        },
+    },
+    "campaigner": {
+        "identity": {
+            "text": "What cause or idea has stuck with you the longest — and why hasn't it let you go?",
+            "starters": [
+                "I've been fighting for this for longer than makes sense, and the reason is...",
+                "The thing I keep coming back to, no matter what else I try, is...",
+                "I think I stay in this fight because...",
+            ],
+        },
+        "fear": {
+            "text": "What are you still showing up for out of habit rather than genuine belief?",
+            "starters": [
+                "If I'm honest, I'm not sure I still believe in...",
+                "I keep fighting for this but lately I've started to wonder...",
+                "The momentum is carrying me but what I actually feel is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment a cause you cared about actually won — and what you felt right after.",
+            "starters": [
+                "We got what we were fighting for, and I felt...",
+                "It worked, and my first thought was...",
+                "The win happened and instead of celebrating, I found myself...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you do tomorrow if you weren't responsible for anything you've started?",
+            "starters": [
+                "If I could walk away right now, I'd probably...",
+                "The thing I never say because I've already committed is...",
+                "Without the obligation, I think I'd honestly...",
+            ],
+        },
+    },
+    "coach": {
+        "identity": {
+            "text": "What's the thing you most love about watching someone grow?",
+            "starters": [
+                "The moment that gets me every time is when someone...",
+                "What I love most isn't the big breakthroughs, it's...",
+                "I feel most alive in this when...",
+            ],
+        },
+        "fear": {
+            "text": "Who are you helping right now whose growth is costing you something?",
+            "starters": [
+                "There's someone I'm carrying right now and what it's costing me is...",
+                "I keep showing up for someone even though I've had to give up...",
+                "I haven't told them that while I'm helping them, I've been quietly losing...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a time you coached someone brilliantly and came home empty.",
+            "starters": [
+                "I gave exactly the right thing and then felt...",
+                "They got what they needed and I realized I hadn't...",
+                "It was one of my best moments with someone else and one of my worst with myself because...",
+            ],
+        },
+        "unsaid": {
+            "text": "What do you need right now that you'd give immediately if someone else asked for it?",
+            "starters": [
+                "If someone came to me with this problem I'd tell them to...",
+                "I'd tell anyone else in my situation to...",
+                "What I actually need, which I never let myself ask for, is...",
+            ],
+        },
+    },
+    "promoter": {
+        "identity": {
+            "text": "What's a version of you that almost nobody gets to see?",
+            "starters": [
+                "When I'm not performing, I'm actually...",
+                "The version of me that shows up when nobody's watching is...",
+                "Something quiet about me that surprises people is...",
+            ],
+        },
+        "fear": {
+            "text": "When was the last time you were in a room and couldn't find your energy?",
+            "starters": [
+                "There was a moment recently where I just couldn't...",
+                "I walked in ready to perform and instead I felt...",
+                "Something felt hollow that was supposed to feel good, and that was...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a time you worked a room and felt nothing inside.",
+            "starters": [
+                "I was on, everyone loved it, and the whole time I felt...",
+                "I performed perfectly and then in the car afterward I...",
+                "It looked like my best night and underneath I was...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you want people to know about you if they couldn't see you perform?",
+            "starters": [
+                "Without the energy and the jokes, I'm actually someone who...",
+                "What I want people to know but can't seem to show is...",
+                "The thing I wish people would just notice without me having to perform it is...",
+            ],
+        },
+    },
+    "impresario": {
+        "identity": {
+            "text": "What experience have you created for others that you wish someone would create for you?",
+            "starters": [
+                "I've made this happen for other people but never had it myself...",
+                "The thing I orchestrate for others that I'm actually hungry for is...",
+                "I've designed the perfect version of this for others, but what I actually want is...",
+            ],
+        },
+        "fear": {
+            "text": "Who do you think would still want to be around you if you stopped making things special?",
+            "starters": [
+                "I'm not totally sure that people would stay if I didn't...",
+                "The honest question I avoid is whether people are here for me or for...",
+                "I wonder sometimes if I stopped creating things whether...",
+            ],
+        },
+        "memory": {
+            "text": "Describe an event you made perfect — and what you felt when everyone left.",
+            "starters": [
+                "It was exactly right and when it was over I felt...",
+                "Everyone had a great time and I sat in the empty room and thought...",
+                "The last person left and I realized...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you want someone to plan for you, if you could ask?",
+            "starters": [
+                "I've never asked for it but what I'd actually love is...",
+                "If someone offered to do for me what I do for others, I'd want...",
+                "The thing I keep creating for others because I want it myself is...",
+            ],
+        },
+    },
+    "entertainer": {
+        "identity": {
+            "text": "What makes you genuinely laugh when no one's watching?",
+            "starters": [
+                "The things that crack me up when I'm alone are...",
+                "I have a sense of humor that's different from my public one, and it's...",
+                "What I actually find funny, without performing it, is...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you've deflected with a joke that's actually still sitting with you?",
+            "starters": [
+                "I made a joke about it but the truth is...",
+                "I laughed it off and then later I realized...",
+                "Something I made funny that wasn't really funny is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment you made everyone laugh and drove home feeling alone.",
+            "starters": [
+                "The room was in tears laughing and I felt...",
+                "I killed it that night and afterward I...",
+                "It was my best performance and when it was done I thought...",
+            ],
+        },
+        "unsaid": {
+            "text": "What's something true about you that you've never found a way to make funny?",
+            "starters": [
+                "The thing I can't joke my way through is...",
+                "There's something about me I've never been able to make light of, which is...",
+                "The one thing I never make jokes about, because it's too real, is...",
+            ],
+        },
+    },
+    "peacekeeper": {
+        "identity": {
+            "text": "What's something you've smoothed over that you're actually proud of?",
+            "starters": [
+                "I kept a situation together that would have fallen apart if I hadn't...",
+                "Something I quietly fixed that nobody knows about is...",
+                "I'm proud of how I handled it when...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you're nodding along to right now that you don't actually agree with?",
+            "starters": [
+                "Honestly I disagree with something I've been going along with, and that's...",
+                "I've been pretending to be fine with...",
+                "Something I haven't pushed back on even though I should is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment you kept the peace — and what you gave up to do it.",
+            "starters": [
+                "I let it go to keep the situation calm and what I lost was...",
+                "I didn't say what I thought because...",
+                "I smoothed it over and later realized I'd traded...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you say if you knew the relationship could handle it?",
+            "starters": [
+                "If I knew they could take it, I'd tell them...",
+                "The thing I've been holding back in this relationship is...",
+                "I want to say this but I'm afraid it would...",
+            ],
+        },
+    },
+    "problemsolver": {
+        "identity": {
+            "text": "What kind of problem do you actually enjoy solving — not because you should, but because it genuinely satisfies you?",
+            "starters": [
+                "The problems that make me feel most alive are...",
+                "I lose track of time when I'm working on...",
+                "What I love solving, even when nobody asked me to, is...",
+            ],
+        },
+        "fear": {
+            "text": "Who keeps offering to help you that you keep turning down?",
+            "starters": [
+                "There's someone who keeps trying to help me and I keep saying no because...",
+                "Someone offered recently and I refused, and the real reason was...",
+                "I'm uncomfortable being helped by...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a time you fixed everything — and nobody noticed.",
+            "starters": [
+                "I solved the whole thing and what I got back was...",
+                "I kept it from falling apart and afterward I felt...",
+                "Nobody knew it was me and I told myself I didn't mind, but...",
+            ],
+        },
+        "unsaid": {
+            "text": "What do you need help with that you haven't asked for?",
+            "starters": [
+                "If I'm being honest, I could really use someone to help me with...",
+                "Something I've been handling alone that is actually too heavy is...",
+                "I'd ask for help with this but I keep telling myself...",
+            ],
+        },
+    },
+    "helper": {
+        "identity": {
+            "text": "What's the most meaningful thing you've done for someone that they never thanked you for — and you did it anyway?",
+            "starters": [
+                "I did something for someone knowing they might never know, and that was...",
+                "I helped in a way nobody saw and felt...",
+                "The thing I gave without expecting anything back was...",
+            ],
+        },
+        "fear": {
+            "text": "Who in your life takes more than they give, and what stops you from saying so?",
+            "starters": [
+                "There's someone I give a lot to who doesn't give much back, and the reason I stay is...",
+                "I haven't said anything to someone who takes from me because...",
+                "I keep showing up for someone and I think the real reason is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a time you gave everything — and still felt unseen.",
+            "starters": [
+                "I was there for everything they needed and when I needed something, they...",
+                "I gave my best and what came back was...",
+                "I poured into someone and afterward I felt...",
+            ],
+        },
+        "unsaid": {
+            "text": "What do you need from someone right now that you haven't asked for?",
+            "starters": [
+                "What I really need that I haven't said out loud is...",
+                "If someone asked me what I needed, I'd want to say...",
+                "The thing I wish someone would just offer, without me having to ask, is...",
+            ],
+        },
+    },
+    "strategist": {
+        "identity": {
+            "text": "When do you feel most like yourself — what's happening when your mind is working best?",
+            "starters": [
+                "I feel most like myself when I'm looking at a problem and...",
+                "My mind works best when...",
+                "The kind of thinking that makes me feel most alive is...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you've figured out that you haven't acted on yet?",
+            "starters": [
+                "I've known for a while that I need to...",
+                "I've mapped the whole thing out in my head but I haven't moved because...",
+                "The strategy is clear — what's stopping me is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a decision you made that was logically right and emotionally costly.",
+            "starters": [
+                "The right call was clear and I made it, but what it cost me was...",
+                "I chose correctly by every measure and still felt...",
+                "I knew it was the right move and I did it anyway, even though...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you do if you let yourself act before fully understanding the outcome?",
+            "starters": [
+                "If I didn't need to know how it would end, I'd probably...",
+                "The thing I keep not doing because I don't have enough information is...",
+                "What I'm waiting to understand before I move is...",
+            ],
+        },
+    },
+    "planner": {
+        "identity": {
+            "text": "What's a plan you made that you're genuinely proud of — not because it worked, but because of how thoroughly you thought it through?",
+            "starters": [
+                "The plan I'm most proud of, regardless of outcome, was...",
+                "I mapped something out that I think was genuinely brilliant, which was...",
+                "Something I thought through that nobody appreciated was...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you're planning that you already know you're going to keep planning instead of starting?",
+            "starters": [
+                "I've been refining this for a while now and if I'm honest, I might just keep...",
+                "There's something I call 'almost ready' that's actually...",
+                "The real reason I haven't started yet is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment a plan fell apart — and what you did in the first five minutes.",
+            "starters": [
+                "When it went sideways, my first instinct was...",
+                "The plan collapsed and I immediately...",
+                "When it didn't work, what surprised me about my own reaction was...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you do tomorrow if you let yourself start before the plan was finished?",
+            "starters": [
+                "If I started now without knowing how it ends, the first thing I'd do is...",
+                "I'd begin with...",
+                "The thing I keep not starting is...",
+            ],
+        },
+    },
+    "orchestrator": {
+        "identity": {
+            "text": "What's a moment a group of people worked together because of something you quietly set up?",
+            "starters": [
+                "I created the conditions for something to work and when it did, I felt...",
+                "Something clicked between people because I'd arranged it that way, and...",
+                "I made something happen that looked like luck but was actually...",
+            ],
+        },
+        "fear": {
+            "text": "What's something in your life right now that nobody's organizing for you?",
+            "starters": [
+                "The area of my life that's genuinely chaotic right now is...",
+                "Nobody's looking after the part of me that needs...",
+                "There's something that keeps slipping because there's no system for it and that's...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment everything came together — and where you were standing when it did.",
+            "starters": [
+                "It all worked and I was...",
+                "The thing I'd set in motion finally landed and I watched from...",
+                "It came together perfectly and I realized I was the only one who...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you want someone to organize for you, if you could ask without it feeling strange?",
+            "starters": [
+                "What I'd love someone to take off my plate is...",
+                "If someone offered to sort out one thing for me, I'd want it to be...",
+                "The thing nobody's thought to set up for me that I actually need is...",
+            ],
+        },
+    },
+    "implementer": {
+        "identity": {
+            "text": "What's the most satisfying thing you've finished recently — and what did it feel like the moment it was done?",
+            "starters": [
+                "I finished something recently and the feeling was...",
+                "The last thing I completed that gave me real satisfaction was...",
+                "When I closed it out I felt...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you've been executing on that you haven't stopped to ask whether you actually want?",
+            "starters": [
+                "I've been doing this for a while and I'm not sure I ever actually decided I wanted it...",
+                "Something I'm in the middle of that I haven't questioned is...",
+                "If I stopped and asked myself why I'm doing this, I think the honest answer would be...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a project you delivered perfectly — and what the silence after felt like.",
+            "starters": [
+                "It was done, it was right, and then I felt...",
+                "I shipped it and the first thing I noticed was...",
+                "When it was over I didn't feel proud, I felt...",
+            ],
+        },
+        "unsaid": {
+            "text": "What question about your life are you too busy to ask?",
+            "starters": [
+                "If I slowed down long enough to ask myself something honest, it would probably be...",
+                "There's a question I keep moving too fast to sit with, and that question is...",
+                "Something I'm not asking myself, maybe on purpose, is...",
+            ],
+        },
+    },
+    "investigator": {
+        "identity": {
+            "text": "What's something you know more about than almost anyone you know — and how did you get there?",
+            "starters": [
+                "I've gone deep on something that most people only skim, and that's...",
+                "There's a topic I've probably researched more than I needed to, which is...",
+                "I know this better than I should, and it started when...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you already know enough about to act — but haven't?",
+            "starters": [
+                "I have enough information to move on this but I keep...",
+                "I've researched this thoroughly and what's actually stopping me isn't information, it's...",
+                "If I'm honest, I don't need to know more about this — what I need is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment you found the answer you were looking for — and it didn't make you feel ready.",
+            "starters": [
+                "I found exactly what I was looking for and felt...",
+                "The research came back clear and I thought I'd feel ready but instead I...",
+                "I got the answer I'd been looking for and my first response was to look for...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you do this week if you decided you already had enough information?",
+            "starters": [
+                "If I accepted that I know enough, the first thing I'd do is...",
+                "The move I'd make if I stopped waiting for more certainty is...",
+                "The thing I'm calling 'research' that might actually be avoidance is...",
+            ],
+        },
+    },
+    "technician": {
+        "identity": {
+            "text": "What's a technical problem you've solved that you're genuinely proud of?",
+            "starters": [
+                "The problem I solved that I think was actually elegant was...",
+                "Something I figured out that most people would have given up on is...",
+                "I'm proud of how I handled...",
+            ],
+        },
+        "fear": {
+            "text": "What's something in your life that doesn't have a technical solution — and how long have you been trying to find one anyway?",
+            "starters": [
+                "Something I keep trying to fix systematically that isn't actually a system problem is...",
+                "I've been treating this like a technical issue when it might really be...",
+                "The thing I've been debugging that can't actually be debugged is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a time you fixed the problem and the situation still didn't get better.",
+            "starters": [
+                "I solved the technical part correctly and then discovered the real problem was...",
+                "Everything worked the way it should have and still...",
+                "I fixed it and they weren't satisfied and I realized...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you say to someone you care about if you couldn't use logic to say it?",
+            "starters": [
+                "If I couldn't explain it rationally, what I'd want someone to know is...",
+                "The thing I feel but can't diagram is...",
+                "What I'm trying to say that doesn't fit in a framework is...",
+            ],
+        },
+    },
+    "adventurer": {
+        "identity": {
+            "text": "What's an experience you've had that you'd genuinely do again — not for the story, but because it was just good?",
+            "starters": [
+                "Something I did that I'd repeat in a heartbeat, not for the memories but because it was just right, was...",
+                "There's an experience I return to in my mind that didn't need to mean anything, it was just...",
+                "The thing I did recently that felt genuinely alive was...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you've been moving away from that you haven't admitted is actually running?",
+            "starters": [
+                "If I'm honest about why I'm pursuing this, part of it is that I'm getting away from...",
+                "Something I call exploration that might actually be escape is...",
+                "I think I keep moving because if I stop I'd have to face...",
+            ],
+        },
+        "memory": {
+            "text": "Describe an adventure that was supposed to change you — and what was the same when you came back.",
+            "starters": [
+                "I went to change something and came back to find...",
+                "The trip was everything I hoped and I returned to find that...",
+                "I thought it would shift something but when I got home...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you do if staying in one place for a year was the adventure?",
+            "starters": [
+                "If depth was the challenge instead of distance, I'd spend that year...",
+                "The adventure I've never tried because it doesn't involve moving is...",
+                "If I couldn't go anywhere, what I'd explore instead is...",
+            ],
+        },
+    },
+    "artisan": {
+        "identity": {
+            "text": "What's something you've made — or done — that you think is genuinely good?",
+            "starters": [
+                "Something I've created that I know is actually good, even if nobody else does, is...",
+                "I made something once that I was quietly proud of, which was...",
+                "The work I've done that I'd stand behind completely is...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you've been refining that you know is already good enough to share?",
+            "starters": [
+                "Something I keep adjusting that's probably already ready is...",
+                "I've been holding onto something that most people would say is done, and that's...",
+                "What I keep telling myself needs more work, even though it probably doesn't, is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe something you made that got a reaction you didn't expect.",
+            "starters": [
+                "I made something I thought was ordinary and someone responded as if...",
+                "The piece I was least proud of got the strongest reaction, which was...",
+                "I shared something half-heartedly and what came back surprised me because...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you make if you knew nobody would see it?",
+            "starters": [
+                "If no one would ever find out, I'd spend my time making...",
+                "What I'd create purely for myself, if showing it was off the table, is...",
+                "The project I'd start tomorrow if visibility wasn't part of it is...",
+            ],
+        },
+    },
+    "inventor": {
+        "identity": {
+            "text": "What's an idea you've had that you still think is genuinely good, even years later?",
+            "starters": [
+                "I had an idea a while back that I still believe in, which is...",
+                "Something I thought of that I keep returning to is...",
+                "The concept I can't shake, even though I haven't built it, is...",
+            ],
+        },
+        "fear": {
+            "text": "What's the idea you've had longest that you've done the least with?",
+            "starters": [
+                "The idea I've had the longest that's still just an idea is...",
+                "Something I keep telling myself I'll build someday is...",
+                "The one that's been waiting the longest is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment you abandoned something you were building — and why.",
+            "starters": [
+                "I was in the middle of building something and I stopped when...",
+                "Something new arrived and I dropped what I was making, and looking back...",
+                "I walked away from something I'd started because...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you finish if starting something new wasn't an option?",
+            "starters": [
+                "If I couldn't begin anything new for six months, the thing I'd complete is...",
+                "The unfinished thing I keep not returning to is...",
+                "What I'd actually commit to if distraction was removed is...",
+            ],
+        },
+    },
+    "explorer": {
+        "identity": {
+            "text": "What's a direction you've gone — physically, professionally, personally — that turned out to be exactly right?",
+            "starters": [
+                "A path I followed on instinct that worked out was...",
+                "Something I chose without a map that I'd choose again is...",
+                "A turn I took that felt right even before I could explain it was...",
+            ],
+        },
+        "fear": {
+            "text": "What's a door you've been keeping open that you know you're probably not going to walk through?",
+            "starters": [
+                "There's an option I've been keeping alive that I probably won't take, and that's...",
+                "Something I call 'still considering' that I think I've already decided against is...",
+                "A path I keep available but never take is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment you committed to something — and what it felt like to stop having options.",
+            "starters": [
+                "There was a time I actually committed and the feeling was...",
+                "I closed a door once and what surprised me was...",
+                "The last time I truly chose one thing, I felt...",
+            ],
+        },
+        "unsaid": {
+            "text": "What's one thing you'd commit to this week if you allowed yourself to choose?",
+            "starters": [
+                "If I let myself choose one thing and close the others, it would be...",
+                "The thing I keep circling that I might actually want is...",
+                "If I could only say yes to one path, I think I'd say yes to...",
+            ],
+        },
+    },
+    "thinker": {
+        "identity": {
+            "text": "What's a belief or framework you've developed that genuinely shapes how you move through the world?",
+            "starters": [
+                "Something I actually believe about how life works, that most people don't think about, is...",
+                "A principle I've arrived at that guides me is...",
+                "The mental model I return to most is...",
+            ],
+        },
+        "fear": {
+            "text": "What's something you understand completely in theory that you haven't managed to live yet?",
+            "starters": [
+                "I know exactly what I should do here, and I haven't done it because...",
+                "There's a gap between how I think about this and how I actually act, and that gap is...",
+                "I've thought through this clearly and the part I can't seem to apply is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe an insight you had that changed how you think — but not how you act.",
+            "starters": [
+                "I understood something clearly and my thinking shifted but my behavior stayed...",
+                "The idea that most changed my mind but least changed my life is...",
+                "I had a realization that felt huge and then found myself doing the same thing as before...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you do tomorrow if you let your body decide instead of your mind?",
+            "starters": [
+                "If I didn't think about it at all, I'd probably...",
+                "What I'd do on instinct, before analysis, is...",
+                "The thing I want to do that I keep thinking my way out of is...",
+            ],
+        },
+    },
+    "growthseeker": {
+        "identity": {
+            "text": "What's the most meaningful thing you've learned about yourself in the last year?",
+            "starters": [
+                "The most honest thing I've learned about myself recently is...",
+                "Something I understand about myself now that I didn't a year ago is...",
+                "What shifted for me recently was...",
+            ],
+        },
+        "fear": {
+            "text": "What part of yourself have you been improving for so long that you wonder if you're avoiding accepting it?",
+            "starters": [
+                "Something I've been working on for years that might just be who I am is...",
+                "I keep trying to change something about myself and I'm starting to wonder if...",
+                "The thing I call a 'growth area' that might actually be just me is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment you realized you'd grown — and what you felt in that moment.",
+            "starters": [
+                "I had a moment where I could see I'd changed and I felt...",
+                "Something happened that showed me I wasn't who I used to be, and my reaction surprised me because...",
+                "I handled something differently than I would have before and noticed...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you do with your time if you weren't trying to become a better version of yourself?",
+            "starters": [
+                "If I accepted who I am right now, I think I'd spend more time...",
+                "Without the project of self-improvement, what I'd actually want to do is...",
+                "If I was already enough, I'd probably stop...",
+            ],
+        },
+    },
+    "protector": {
+        "identity": {
+            "text": "What's something you've stood up for that cost you something — and you'd do it again?",
+            "starters": [
+                "I defended something important and it cost me...",
+                "I've taken a hit for something I believe in, and that thing is...",
+                "Something I'd protect again even knowing the price is...",
+            ],
+        },
+        "fear": {
+            "text": "What's a belief or way of doing things you hold firmly that you've quietly started to question?",
+            "starters": [
+                "Something I've always believed that I'm less sure of lately is...",
+                "A standard I've defended that I've started to wonder about is...",
+                "Something I hold onto that I'm not sure is still right is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a time you protected something — and later wondered if it needed protecting.",
+            "starters": [
+                "I defended something that I later realized might not have needed me to...",
+                "I held the line and afterward questioned whether the line was still in the right place because...",
+                "I protected something and years later I wondered if I was really protecting...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you let change if you knew the important things would survive?",
+            "starters": [
+                "If I trusted that what matters would stay, I'd probably allow...",
+                "The thing I'd let go of if I weren't afraid of what it would mean is...",
+                "Something I'm holding rigid that might be okay to release is...",
+            ],
+        },
+    },
+    "enforcer": {
+        "identity": {
+            "text": "What's a standard you hold that you're genuinely proud of — not because others approve, but because you know it's right?",
+            "starters": [
+                "A standard I hold that I don't apologize for is...",
+                "Something I insist on that I think actually matters is...",
+                "The thing I hold to regardless of what others think is...",
+            ],
+        },
+        "fear": {
+            "text": "Where are you applying a standard to others that you're not fully meeting yourself?",
+            "starters": [
+                "If I'm honest, I hold others to something that I'm currently falling short of, which is...",
+                "There's a gap between what I expect from others and what I'm actually doing, specifically...",
+                "Something I judge in others that I'm also guilty of is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment you held someone accountable — and recognized yourself in them.",
+            "starters": [
+                "I called someone out and immediately thought of myself because...",
+                "I held someone to a standard and later realized I...",
+                "I enforced something and the moment felt strange because...",
+            ],
+        },
+        "unsaid": {
+            "text": "What standard are you holding in your life that might be worth revisiting?",
+            "starters": [
+                "Something I've insisted on for a long time that I might be ready to question is...",
+                "A rule I follow that I'm not sure still serves me is...",
+                "Something I enforce out of habit more than conviction is...",
+            ],
+        },
+    },
+    "critic": {
+        "identity": {
+            "text": "What's something you've called out that nobody else would say — and turned out to be right?",
+            "starters": [
+                "I said something that made people uncomfortable and it turned out to be true...",
+                "I named something others were avoiding and what happened was...",
+                "A critique I gave that I stand behind completely is...",
+            ],
+        },
+        "fear": {
+            "text": "What's a critique you give to others that you haven't fully turned on yourself yet?",
+            "starters": [
+                "Something I notice in others that I probably do myself is...",
+                "A flaw I point out frequently that I see in myself when I'm honest is...",
+                "The criticism I give most often that applies to me too is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a moment you got a critique exactly right — and it cost you a relationship.",
+            "starters": [
+                "I said something true and what I lost was...",
+                "My critique was accurate and the price was...",
+                "I was right and the cost turned out to be...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you say to yourself if you turned your sharpest critique inward right now?",
+            "starters": [
+                "If I critiqued myself the way I critique others, I'd say...",
+                "The honest assessment I'd give myself, if I were being as sharp as I usually am, is...",
+                "What I'd tell myself if I applied my own standards is...",
+            ],
+        },
+    },
+    "individualist": {
+        "identity": {
+            "text": "What's something genuinely original about how you see or do things — not performed, just real?",
+            "starters": [
+                "Something about how I see the world that I don't think I've ever explained properly is...",
+                "A way I do things that's genuinely mine, not performed, is...",
+                "Something real about me that gets missed because it's harder to see than the surface is...",
+            ],
+        },
+        "fear": {
+            "text": "What's something ordinary you want that you've never let yourself just want?",
+            "starters": [
+                "Something embarrassingly normal that I actually want is...",
+                "A simple thing I've been pretending I'm above is...",
+                "The ordinary desire I keep wrapping in something more interesting is...",
+            ],
+        },
+        "memory": {
+            "text": "Describe a time being different felt genuinely lonely.",
+            "starters": [
+                "There was a moment when being my own thing felt isolating, and that was...",
+                "A time I wished I could just fit in was...",
+                "Something I experienced alone because nobody else was there is...",
+            ],
+        },
+        "unsaid": {
+            "text": "What would you let yourself belong to if belonging didn't feel like giving something up?",
+            "starters": [
+                "Something I'd join or be part of if it didn't feel like a compromise is...",
+                "What I actually want to be connected to, if I'm being honest, is...",
+                "The community or thing I'd belong to if belonging wasn't threatening is...",
+            ],
+        },
+    },
+}

@@ -1,0 +1,71 @@
+{
+  "uuid": "48976af2-930d-4d0a-b74e-a6784a067aa4",
+  "status": "ready",
+  "created_at": "2026-06-13T08:15:59.112015+00:00",
+  "archetype_slug": "shaper",
+  "archetype_name": "Shaper",
+  "archetype_category": "Leaders",
+  "question_category": "identity",
+  "question_text": "What's something you've built or changed that you're genuinely proud of, even if nobody noticed?",
+  "user_response": "The thing I'm most proud of that didn't get applause is getting my degree while working part time and not missing a single A grade while also handling the cooking and chores at home.",
+  "narrator_slug": "yoda",
+  "narrator_name": "Yoda",
+  "narrator_tone_label": "Ancient & patient",
+  "narrator_initials": "Y",
+  "narrator_avatar_color": "#3D5C3A",
+  "narrator_photo": "yoda.jpg",
+  "narrator_signature_line": "Already know, you do. Listen, you must.",
+  "narrator_voice_id": "fable",
+  "steps": {
+    "text": {
+      "status": "ready"
+    },
+    "image": {
+      "status": "ready"
+    },
+    "voice": {
+      "status": "ready"
+    }
+  },
+  "audio_file": "48976af2-930d-4d0a-b74e-a6784a067aa4_audio.mp3",
+  "comic_file": "48976af2-930d-4d0a-b74e-a6784a067aa4_comic.png",
+  "has_audio": true,
+  "has_comic": true,
+  "reflection": "Hmm. See I do, a builder who measures worth not by the statue's size, but by how perfectly each chisel strike lands, yes. In silence you carved, while others slept or played. The weight of many worlds on your shoulders you carried - books and dishes, deadlines and dinners, all balanced with the precision of a master. Yet proud you are not of the juggling itself, but of the perfection within the chaos, hmm? The invisible architecture of discipline, this is what you built.",
+  "the_line": "The greatest sculptures, carved they are in the quiet hours when no one watches.",
+  "comic_page": {
+    "archetype_character": "A figure in simple work clothes and apron, hands permanently stained with both ink and flour, carrying books and kitchen tools with equal reverence",
+    "narrator_character": "A small ancient sage in a misty forest, luminous eyes, robes blending with roots and moss",
+    "setting": "A kitchen that transforms into a library, where cooking utensils become architectural tools and recipe books morph into textbooks",
+    "panels": [
+      {
+        "size": "full_width",
+        "scene": "Wide shot of a kitchen-library hybrid space at dawn, golden light streaming through windows, showing counters covered with both textbooks and cooking ingredients, steam rising from a pot while papers are spread nearby",
+        "caption": "Building in the spaces between",
+        "narration": "",
+        "is_climax": false
+      },
+      {
+        "size": "half",
+        "scene": "Close-up of the ancient sage emerging from between cookbook pages like morning mist, eyes twinkling with ancient knowing, one gnarled finger pointing toward the protagonist",
+        "caption": "",
+        "narration": "Perfect balance, the hardest sculpture to carve",
+        "is_climax": false
+      },
+      {
+        "size": "half",
+        "scene": "The protagonist's hands in motion - one stirring a pot, the other writing notes, flour and ink creating swirling patterns in the air, time-lapse effect showing the same hands through different tasks",
+        "caption": "",
+        "narration": "",
+        "is_climax": false
+      },
+      {
+        "size": "full_width",
+        "scene": "The protagonist stands in a cathedral-like space where kitchen shelves have become towering library stacks, diploma and perfect grades floating like constellations above, while warm light emanates from their centered, peaceful form",
+        "caption": "Invisible masterpieces shine brightest",
+        "narration": "",
+        "is_climax": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "uuid": "385b0840-fa2c-4d7e-a1c2-0549ac7fe95c",
+  "status": "ready",
+  "created_at": "2026-06-13T11:18:09.489403+00:00",
+  "archetype_slug": "peacekeeper",
+  "archetype_name": "Peacekeeper",
+  "archetype_category": "Givers",
+  "question_category": "memory",
+  "question_text": "Describe a moment you kept the peace \u2014 and what you gave up to do it.",
+  "user_response": "There was an argument at dinner when I was twelve. Everyone was shouting and I just quietly got up and started doing the dishes. Nobody noticed. I've been doing the dishes ever since.",
+  "narrator_slug": "oprah",
+  "narrator_name": "Oprah Winfrey",
+  "narrator_tone_label": "Warm & seeing you",
+  "narrator_initials": "OW",
+  "narrator_avatar_color": "#6B3FA0",
+  "narrator_photo": "oprah.jpg",
+  "narrator_signature_line": "I hear what you didn't say out loud.",
+  "narrator_voice_id": "shimmer",
+  "steps": {
+    "text": {
+      "status": "ready"
+    },
+    "image": {
+      "status": "ready"
+    },
+    "voice": {
+      "status": "ready"
+    }
+  },
+  "audio_file": "385b0840-fa2c-4d7e-a1c2-0549ac7fe95c_audio.mp3",
+  "comic_file": "385b0840-fa2c-4d7e-a1c2-0549ac7fe95c_comic.png",
+  "has_audio": true,
+  "has_comic": true,
+  "reflection": "Oh honey, I see you there at twelve years old, making yourself small and useful while the storm raged around you. You learned that your worth came not from being seen, but from being the one who cleaned up the mess \u2014 literally and figuratively. That little girl who quietly slipped away to the kitchen discovered a terrible magic: how to make conflict disappear by disappearing yourself. And here you are, decades later, still standing at that same sink, still believing that keeping the peace means keeping yourself invisible. The dishes became your shield, your offering, your way of saying 'please don't fight' without ever having to risk your own voice in the room.",
+  "the_line": "You've been washing away your own presence ever since.",
+  "comic_page": {
+    "archetype_character": "A figure in simple, timeless clothing \u2014 soft sweater and worn jeans \u2014 with gentle hands always in motion, face partially obscured by shadow or turned away",
+    "narrator_character": "A warm, composed figure in soft light, leaning in with full attention, studio or intimate interview setting \u2014 Oprah Winfrey's archetype as visual persona",
+    "setting": "A kitchen that exists across time \u2014 childhood and present merged, where dirty dishes pile endlessly and arguments echo from other rooms",
+    "panels": [
+      {
+        "size": "full_width",
+        "scene": "Wide shot of a kitchen table with abandoned dinner plates, chairs pushed back in chaos, shadows of arguing figures visible through doorway, warm kitchen light contrasting with harsh dining room",
+        "caption": "The storm always found our table",
+        "narration": "",
+        "is_climax": false
+      },
+      {
+        "size": "half",
+        "scene": "Close-up of the narrator in soft interview lighting, leaning forward with knowing eyes and gentle expression, hands clasped",
+        "caption": "",
+        "narration": "So you became the quiet one instead",
+        "is_climax": false
+      },
+      {
+        "size": "half",
+        "scene": "Hands washing dishes at a sink, water running, steam rising, the figure's reflection barely visible in the window above \u2014 a ghost of themselves",
+        "caption": "",
+        "narration": "",
+        "is_climax": false
+      },
+      {
+        "size": "full_width",
+        "scene": "The same figure now stands at the sink but faces the camera, dishes floating clean and luminous around them, their face finally visible and serene, kitchen transformed into a sanctuary of light",
+        "caption": "Until you remember your own voice",
+        "narration": "",
+        "is_climax": true
+      }
+    ]
+  }
+}

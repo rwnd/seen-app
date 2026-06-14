@@ -1,0 +1,524 @@
+{
+    "archetypes": {
+      "Leaders": {
+        "Commander": {
+          "name": "Commander",
+          "tagline": "Commanders are driven to achieve goals through determination and holding themselves and others to high standards of performance. They tend to be driven and demanding leaders who are pragmatic and results-oriented.",
+          "overview": "Commanders have a unique set of characteristics that make them the perfect choice to oversee and direct complex systems and endeavors. Typical Commanders are most characterized by their personal drive for excellence and a willingness to dive into leadership roles and push people to deliver their best performance for the good of the organization. They are comfortable taking charge and don't mind ruffling feathers if it serves the larger mission. Recognition or status are not as important as being competent and effective. They have little difficulty correcting people on their mistakes and tend not to worry too much about offending others. They can be counted on to stand up for what they believe in and readily engage in argument and debate. They tend to be more directive than participative in their leadership style, preferring to lead through setting and applying high standards rather than through emotional and interpersonal connection. Other distinguishing characteristics include their high degree of self-confidence, their efficient and systematic nature, and their tendency to be responsible, self-accountable and disciplined in following through with their goals and commitments. At times, their tough-minded approach to relating with people may cause conflict, and highly emotional people may wear them out. Commanders should be aware, however, that to achieve results they'll need the ability to manage different types of people. Though it may not feel natural, being aware of other people's emotional needs and expressing appreciation and care more overtly can help Commanders be more effective.",
+          "growth_opportunities": [
+            "Recognizing when to step back and let others lead",
+            "Burning themselves out",
+            "Being sensitive to other people's needs and feelings",
+            "Giving praise, showing appreciation, and being open to new ways of doing things"
+          ],
+          "talents": [
+            "Setting the bar high on goals and expectations",
+            "Achieving results",
+            "Managing complex organizations and resources",
+            "Maintaining discipline and order, and creating efficient systems"
+          ]
+        },
+        "Shaper": {
+          "name": "Shaper",
+          "tagline": "Shapers visualize ambitious goals, set plans in place, and push through relentlessly to make them happen. They tend to be independent, original, driven, demanding, adaptable and at times impatient and single-minded.",
+          "overview": "Shapers visualize goals, set plans in place, and push through relentlessly to make them happen. Typical Shapers dream big and unconventionally and have the determination and personal accountability to push through obstacles in their way. Their creativity and independent style drives them to the edge of rebelliousness and sometimes pushes them over it. They think that if they can clearly visualize a goal, they can achieve it; that is, it's within their complete control to succeed or fail. They're able to maintain conflicting thoughts simultaneously and evaluate them from different perspectives, navigating between the big picture and granular details. They're comfortable taking the lead and demanding high levels of performance from those who follow them. Among other distinguishing characteristics is their ability to inspire people to get behind their vision. They relish having fierce debates with other equally strong-willed thinkers. They have no problem telling people what they really think, good, bad, and ugly. They make sure their vision perseveres over the doubts and opposition of others. They are generally less interested in getting involved in people's feelings and emotions and may not go out of their way to help and support those people, but rather expect them to take care of their own needs. Their tenacious, uncompromising, and single-minded focus may lead to the neglect of some of their personal relationships. They can make sure that people don't react negatively to their unrelenting passion and drive for their vision by learning how to communicate and engage with people who are wired differently than them.",
+          "growth_opportunities": [
+            "Sensitivity to other people's feelings and needs",
+            "Showing appreciation for other people's contributions",
+            "Practicing patience and being in the present moment",
+            "Giving space to others instead of micromanaging"
+          ],
+          "talents": [
+            "Creating and achieving their vision and goals",
+            "Developing mental maps of how things can and should be done",
+            "Holding others accountable to high standards",
+            "Shifting priorities and plans to accommodate changing demands",
+            "Having big, lasting impact on the things that are important to them"
+          ]
+        },
+        "Quiet Leader": {
+          "name": "Quiet Leader",
+          "tagline": "Quiet Leaders focus on leading themselves and others through their open-mindedness and their equanimity in facing challenges - often leading as much through 'taking in' as 'putting out'. They tend to be more reserved, reflective, both determined and humble, composed under pressure while also being inspiring and demanding leaders.",
+          "overview": "There is no single best way to lead people to achieve shared goals. While some leaders are boisterously charismatic, the Quiet Leader is more reserved and reflective. Typical Quiet Leaders strike a healthy balance between determination and humility. They know deep down that they are driven to lead and push themselves and others to high levels of performance and achievement. They are right at home engaging people one-on-one, with a particular focus on listening rather than talking, and capable of tapping into what motivates others and inspiring a sense of purpose. They have a strong sense of self and tend not to spend much time caught up in what others think of them. They're down-to-earth, restrained, and patient. They don't talk over people, or project the idea that they're better or know more than others. They are willing to explore their own shortcomings and mistakes, a key to gaining trust among those they lead. Other distinguishing characteristics include their willingness to fight for their ideas and opinions and letting people know exactly what they think, even if the conversation is difficult. They take in constructive feedback as well as giving it, but they generally like to take time to reflect and process before responding. They are grounded and level-headed, which allows them to appreciate the value of such criticism and use it to improve themselves. They are generally resilient in the face of stress and pressure and do their best to approach even complex decisions objectively and unemotionally to get the best result. They generally welcome change and see it as an opportunity rather than resist it. Open self-expression doesn't always come naturally to Quiet Leaders. Some may tend to work things out too much in their own head instead of engaging others, even when doing so would be most productive. It can be important for them to find ways to express themselves, particularly those that are more introverted and less at ease in large groups or social settings.",
+          "growth_opportunities": [
+            "Revealing their individual complexity more openly",
+            "Staying too much in their head rather than engaging more vocally",
+            "Sharing views and thinking more openly",
+            "Being reticent to stand out even when it may be required"
+          ],
+          "talents": [
+            "Leading by example, personal competence, and learning drives you",
+            "Thinking independently and being patient in working through difficult issues",
+            "Balancing determination and humility",
+            "Gaining other people's trust",
+            "Being calm, confident, and resilient"
+          ]
+        }
+      },
+      "Advocates": {
+        "Inspirer": {
+          "name": "Inspirer",
+          "tagline": "Inspirers lead through motivating people to get behind a challenging and important idea, project, or business objective. They tend to be motivating, engaging, supportive and leadership-oriented.",
+          "overview": "Inspirers are typically charismatic, participative, and people-oriented leaders who inspire and motivate people to get behind a challenging and important idea, project, or business objective. Typical Inspirers have a unique blend of hard-charging, goal focus, and belief in esprit de corps that distinguishes them from those with less interpersonal finesse. They have strong interpersonal abilities framed most by their desire to really get to know people at the core of who they are, not just as a passing interest. Their people know they care about them and will go out of their way to help them. They are most effective when the people they lead are efficient, satisfied, and meeting established goals. Other distinguishing characteristics include their outgoing, friendly, and socially adventurous style. They tend to prefer to drive performance and achievement through positive reinforcement rather than harsh criticism or punishment. They are adaptable to change, and also have the ability to shift the roles they play in a variety of situations. The other side of their ability to connect emotionally to others is that at times they may get too emotionally invested in other people's problems. They may be slow to act decisively when people don't meet their expectations, tending to support more often than challenge. They may get irritated quickly with people who regularly think negatively and bring down morale, knowing that good team spirit is key to success. Failure to act quickly by taking appropriate and corrective disciplinary actions can lead to diminished performance for themselves and others.",
+          "growth_opportunities": [
+            "Acting decisively when people don't meet their standards",
+            "Getting too emotionally invested in other people's problems",
+            "Over relying on the ability to connect to and motivate others rather than other means of driving performance",
+            "Worrying too much about other people's perceptions and feelings versus their own internal compass"
+          ],
+          "talents": [
+            "Integrating people into a strategy and plan",
+            "Bringing a positive attitude and synergy to a team",
+            "Managing crises by staying in touch with people and their points of view",
+            "Creating and maintaining harmonious relations and promoting teamwork",
+            "Being goal directed and self-disciplined"
+          ]
+        },
+        "Campaigner": {
+          "name": "Campaigner",
+          "tagline": "Campaigners focus on rallying others around ideas, positions and solutions and achieving practical results. They tend to be ambitious, agile, inspiring, energetic and practical while at times being single-minded.",
+          "overview": "Typical Campaigners set ambitious goals and have a tenacious desire to achieve them, and have a strong ability to influence and inspire others along the way. They tend to follow through and finish what they start, no matter how long it takes. Their ability to read people at an emotional level and connect with them through the expression of common values is key to bringing others around to their way of thinking. They tend to be great networkers and are strategic and practical in how they navigate people and relationships. Other distinguishing characteristics include their ability to play different roles in different situations. Campaigners tend to have boundless energy and capitalize quickly and actively on the opportunities in front of them. Campaigners typically prefer to go with the current rather than be too bold and rebellious in breaking with norms and traditions. They seek to be respected and admired, and tend to find validation through the rewards and status they reap in achieving their goals. At times, Campaigners can lose themselves in their determination and ambition. They can be perceived as having tunnel vision and be consumed by work to the extent they neglect other things, like more intimate relationships or their own needs for relaxation and balance.",
+          "growth_opportunities": [
+            "Developing greater insight into their personal and inner motivations",
+            "Not sacrificing other priorities for achievement and ambition",
+            "Not losing themselves in seeking validation externally",
+            "Monitoring their energy levels to avoid burnout"
+          ],
+          "talents": [
+            "Being goal directed, practical, quick to respond, and driven to achieve",
+            "Inspiring and convincing others to get behind their vision",
+            "Being motivated by external goals and having high stamina and energy",
+            "Capitalizing on opportunities as they arise",
+            "Being energetic and inexhaustible"
+          ]
+        },
+        "Coach": {
+          "name": "Coach",
+          "tagline": "Coaches regard self-growth, development and learning as a cornerstone of life and daily practices and they teach and model these as aspirations for others. They tend to be both demanding and caring, humble and resilient.",
+          "overview": "Coaches are motivated by personal evolution, development, and learning for themselves and others and make it a cornerstone of their focus. Typical Coaches possess a complex mix of characteristics that support their passion for learning and motivating others. Their strong inner faith and unflappable nature comes from a belief in themselves and a steadiness even in the most stressful situations. Their calm and collected style enables them to share the best of themselves with others when it's needed most. They possess the balanced quality of a giving and compassionate supporter who can offer hard-hitting and no-nonsense advice. Great Coaches exemplify tough love. They challenge themselves and others by establishing high standards, but offer support and nurturance when it's needed most. Other distinguishing characteristics include passing along their strong belief that success and failure is based on hard work and a personal commitment to improve oneself, and that success is attributable to factors within people's control. They set the bar high on their own goals and help others do the same. They're typically open to receiving constructive feedback and use the insight to continue growing. Taking people under their wings can be physically and emotionally exhausting. Coaches are givers who can be taken advantage of without being aware of it. Their authentic and sincere interest in people's lives can be very rewarding, but it can also be a heavy burden at times.",
+          "growth_opportunities": [
+            "Resisting the need to take on other people's problems as one's own",
+            "Being patient when others don't implement or follow on advice",
+            "Recognizing that not everyone wants help or needs to be fixed",
+            "Making sure to leave time to pursue their own growth needs"
+          ],
+          "talents": [
+            "Helping others learn and grow",
+            "Balancing their compassionate and tough-minded approach",
+            "Being more open to feedback that helps facilitate growth and evolution",
+            "Being composed and optimistic, even in the face of difficult circumstances"
+          ]
+        }
+      },
+      "Enthusiasts": {
+        "Promoter": {
+          "name": "Promoter",
+          "tagline": "Promoters tend to be distinguished by their outgoing, charismatic nature and people skills and their ability to tap into what motivates people. They tend to be inspiring, engaging, energetic, and agreeable, while generally being more diplomatic and less confrontational.",
+          "overview": "Ideas and services don't get traction on their own, and Promoters are gifted in the art of communication and influence. They are most distinguished by their outgoing and engaging nature and people skills. Typical Promoters rely on their personal charm and ability to communicate and connect with others. Their well-attuned listening skills help them identify people's needs, wants, and problems. They may tend to spend more time communicating ideas and perspectives than being involved in the nitty-gritty details of building them out. They are comfortable engaging complete strangers and turning them into new friends quickly. They tend to be motivated as much by the breadth and depth of their relationships as they are by any end result. Other distinguishing characteristics include a high energy, work-hard/play-hard attitude that steers them into new adventures and opportunities. They are more tactful than forceful, going out of their way to avoid upsetting others and risking the quality of the relationship. They are generally adept at shifting their style to fit in anywhere and tend to be highly intuitive rather than overly analytical. Promoters are at their best when they're able to connect with people. Tasks that take away from that can be frustrating. While typical Promoters are highly engaging and can be great leaders, they may prefer not to be in a position of having to closely manage others. They may struggle to be direct and hold others accountable when the situation requires.",
+          "growth_opportunities": [
+            "Being more patient and introspective",
+            "Setting and enforcing standards if necessary",
+            "Not getting carried away by their instincts; reflecting on the logic and reasoning behind decisions",
+            "Not losing themselves in seeking validation externally"
+          ],
+          "talents": [
+            "Communicating, influencing, and motivating others around products, services, and ideas",
+            "Focusing their energies on connecting with people",
+            "Understanding what makes people tick and aligning their interests",
+            "Developing and maintaining a large network of friends and contacts",
+            "Avoiding bureaucracy and being free to do their own thing"
+          ]
+        },
+        "Impresario": {
+          "name": "Impresario",
+          "tagline": "Impresarios love to entertain, engage socially, and facilitate great experiences with others. They tend to be outgoing, inspiring, energetic and adaptable.",
+          "overview": "Impresarios love to entertain, engage socially, and facilitate great experiences with others. Typical Impresarios love being at the center of social activity, equally comfortable with close friends or new acquaintances. Impresarios tend to be charming, friendly, and highly energetic. They are skilled at playing the role of emcee or facilitator in groups. They tend to go with the flow and operate more on feel and instinct than analysis. They connect well with others but aren't necessarily motivated by a deep desire to tend to and support other people's needs. Impresarios are quite independent and can tend to march to the beat of their own drum. Other distinguishing characteristics include the ability to balance spontaneity and good organization, which allows them to orchestrate people and experiences in an effective way. Impresarios have a knack for understanding what makes people tick and tend to be capable at influencing, persuading, and inspiring others. They tend to thrive on pleasing others and being liked and admired. While this can enhance their connections to others, they should be careful not to lose their own sense of self in seeking validation externally.",
+          "growth_opportunities": [
+            "Taking time to pause and think things through",
+            "Making better use of routines and set practices",
+            "Not losing themselves in seeking validation externally",
+            "Monitoring their energy levels to avoid burnout"
+          ],
+          "talents": [
+            "Being social and engaging, yet independent",
+            "Orchestrating compelling experiences",
+            "Influencing, persuading, and inspiring others",
+            "Being bold and adventurous",
+            "Facilitating large groups of people"
+          ]
+        },
+        "Entertainer": {
+          "name": "Entertainer",
+          "tagline": "Entertainers are driven by creating experiences and engaging with the world and particularly the people in it. They tend to be outgoing, original, agile, energetic, joyful and lighthearted.",
+          "overview": "Entertainers are typically joyful and fun-loving, and love engaging with the world and the people around them. Typical Entertainers are the complete picture of an outgoing and socially engaging character. They tend to make friends quickly and often don't mind being at the center of any group interaction, and they relish sharing exciting and stimulating experiences with others. They are original thinkers who can be a force for creating new experiences or coming up with new ideas that contribute fun and joy to any setting. They tend to be agile and able to shift their personality to different people and situations. They tend not to take life too seriously, and others often rely on them for their positivity and ability to lighten the mood. Other distinguishing characteristics include having a higher-than-normal energy level that, when combined with their higher-extraverting style, allows them to exert themselves for lengthy periods without seeming to tire out. Being with people recharges their batteries, and feeling socially isolated can drain them. They are typically less timid or modest, and may even be inclined to show off at times. Entertainers are adept at living in the moment, relishing the spotlight, and engaging fully in the experiences around them, though they may get restless when they feel bored, alone, or too settled down.",
+          "growth_opportunities": [
+            "Finding comfort in alone time and personal reflection",
+            "Not dismissing things that need to be taken seriously or the people that take them more seriously",
+            "Learning to share the stage with others rather than just show what they can do themselves",
+            "Building a sense of self that doesn't fully rely on the connection or attention they get from others"
+          ],
+          "talents": [
+            "Being extraverted, socially engaging, and outgoing",
+            "Creating and engaging in new ideas and experiences",
+            "Bringing joy and humor to any situation using their unique energy and zest for life and people",
+            "Shifting their style and behavior to fit the situation and the audience",
+            "Having a deep reservoir of energy and stamina"
+          ]
+        }
+      },
+      "Givers": {
+        "Peacekeeper": {
+          "name": "Peacekeeper",
+          "tagline": "Peacekeepers relish developing positive relationships between people, and seeking harmony, compromise, and cooperation. They tend to be empathetic, agreeable, agile, and diplomatic.",
+          "overview": "Peacekeepers are adept at developing positive relationships between people, and seeking compromise, harmony, and alignment. Typical Peacekeepers are deeply in touch with people's emotions, needs, and values. They are fascinated by people's lives and learning about them in ways that can help them improve their situation and relationships. They tend to be more diplomatic than blunt and display interpersonal tactfulness when tensions run high. They tend to be good listeners and can absorb differing positions and opinions, and build bridges without judging or criticizing. When stress and anxieties exist, they remain steady and solutions-focused. Their clearheaded and even-keeled nature can be a steadying force under pressure. Other distinguishing characteristics include being able to adjust their behavior and roles to suit the different circumstances they find themselves in. They are open-minded and take in insights from all around them to make connections and bridge divides. Bringing people together and developing lasting, harmonious outcomes uplifts their spirits. However, sometimes conflict and disagreement are warranted, and misalignment in perspectives and values may need to be dealt with more forthrightly. Their sensitivity to other people's feelings and desire to please can mean they are hesitant to make clear when others are disappointing them.",
+          "growth_opportunities": [
+            "Stating their own opinions and ideas more forcefully",
+            "Being overly reliant on compromise as the ideal solution",
+            "Being careful not to be taken advantage of by others who are less giving"
+          ],
+          "talents": [
+            "Understanding where people are coming from emotionally",
+            "Communicating with and bringing people together",
+            "Adapting their behavior to suit different circumstances",
+            "Remaining calm in tense situations",
+            "Being liked and admired by those around them"
+          ]
+        },
+        "Problem Solver": {
+          "name": "Problem Solver",
+          "tagline": "Problem Solvers are motivated to support and help others in an industrious and professional manner. They tend to be supportive, conscientious, responsible and proactive.",
+          "overview": "Problem Solvers are motivated to support and help others in an industrious and professional manner. Typical Problem Solvers are dedicated to helping people by getting to know them at a deeply personal level and developing trusting and authentic connections. They genuinely care about other people's wellbeing and like to give more than they receive. The organized and structured approach they bring to solving problems combined with their generous nature makes them key teammates, partners, and friends. They display tact and diplomacy when listening to and responding to people's opinions and ideas, seeking understanding and avoiding being judgmental or overly critical. Other distinguishing characteristics include their ability to be precise and detail-oriented. Problem Solvers are often able to alter their approach and style to suit the different types of people that they support. They are proactive and reliable in finishing what they start. They tend not to be too enamored with new or innovative solutions when tried and true ones may work. Being so invested in helping others can come at a cost; Problem Solvers should take care to tend to themselves as well.",
+          "growth_opportunities": [
+            "Being direct and forthright with their own views when needed",
+            "Can be too willing to take on other people's problems as their own",
+            "Learning to say 'no,' insist people pull their own weight",
+            "Make time to tend to their own needs"
+          ],
+          "talents": [
+            "Being industrious and always willing to lend a hand",
+            "Genuine care for other people's wellbeing",
+            "Accepting people for who they are, not judging",
+            "High degree of responsibility and reliability"
+          ]
+        },
+        "Helper": {
+          "name": "Helper",
+          "tagline": "Helpers are driven by compassion and care for others, and support of their emotional needs. They tend to be empathetic, nurturing, generous and agreeable.",
+          "overview": "Typical Helpers have a driving purpose to support the needs of others through their high capacity for compassion and empathy and their desire to give more than they receive. That starts with a deep appreciation for knowing where people are coming from and how emotions, feelings, and values shape behavior and outlooks. They take special interest and time to really get to know people and make their lives better. They may experience difficulty confronting others with tough-minded, blunt criticism or when needing to draw a line in the sand or make their own demands. Their genuineness enables people to trust them fully. Other distinguishing characteristics include their natural ability to give useful, common sense guidance. They tend to want to please others and seek harmony and understanding rather than conflict, debate, or disagreement. They may wear their hearts on their sleeves and struggle to hold others accountable, particularly people they feel a strong connection and loyalty to. They give so much of themselves that they run the risk of depleting their own reservoir of energy. Because they may develop co-dependencies with the people they support, learning to say no, seeking support for themselves, and ending damaging relationships is central to maintaining their balance.",
+          "growth_opportunities": [
+            "Being direct and forthright with their own views when needed",
+            "Can be too willing to take on other people's problems as their own",
+            "Being less reactive to their and other people's feelings than the logic of a decision or outcome",
+            "Being taken advantage of by others who are less giving than themselves"
+          ],
+          "talents": [
+            "Offering warmth, kindness, empathy, and generosity",
+            "Advising and giving support",
+            "Good listener",
+            "Accepting people for who they are, not overly judgmental",
+            "Promoting harmony, win-win outcomes and teamwork"
+          ]
+        }
+      },
+      "Architects": {
+        "Strategist": {
+          "name": "Strategist",
+          "tagline": "Strategists are adept at generating and translating concepts and ideas into effective strategies to achieve results. They tend to be both conceptual and structured thinkers, curious and open-minded, while also being reliable and pragmatic.",
+          "overview": "Organizations without strategic plans are like ships without rudders. Strategists gather and translate data and information from multiple sources and combine them with a realistic assessment of what needs to be done to achieve them. Typical Strategists make systematic assessments of the conditions surrounding them to formulate comprehensive and accurate insights about what can and should be done. They are then able to identify the resources and actions needed and mobilize the will of those around them to get involved. Strategists balance the conceptual and practical well and can be relied on to translate unsolved problems into structured and concrete solutions and push them through to a practical reality. Other distinguishing characteristics include a willingness to speak their mind and debate solutions to find the right answer. Some Strategists may also thrive when their expectations and objectives are clear rather than too vague or ambiguous, and as such can often be great partners to other leaders who help set direction.",
+          "growth_opportunities": [
+            "Balancing their desire for structure and resolution with a tolerance for ambiguity and more emergent modes of thinking",
+            "Appreciating the need to be an imperfectionist at times",
+            "Being patient with those who have less structured and systematic approaches to problem solving",
+            "Developing their own independent vision and direction when they can't rely on others to set it"
+          ],
+          "talents": [
+            "Intuition and conceptual ability to anticipate the future, balanced with a sensibility for how things really work and what is possible",
+            "Collecting and making sense of numerous data points and information",
+            "Breaking down problems concretely and practically",
+            "Following through, adjusting plans, and keeping a vigilant eye on the future for any conditions that cause change"
+          ]
+        },
+        "Planner": {
+          "name": "Planner",
+          "tagline": "Planners are driven to put structure and systems around goals, translating ideas into practical and achievable plans. They tend to be planful, methodical and results-oriented.",
+          "overview": "A goal without a plan is like having a ship without a navigational system. Planners gather and translate data and information from available sources to develop focused plans that improve the likelihood of achieving goals and objectives. Typical Planners have the ability to gather and evaluate relevant information, facts, and data and organize it effectively. They work through information and data systematically to make sure it falls into proper order. They don't necessarily mind being directed to goals and objectives that their plans work toward, rather than being the one responsible for putting them in place. Other distinguishing characteristics include setting ambitious goals and tenaciously pursuing them until they're accomplished. They think through things in a structured and methodical way. They are good at getting ahead of events so that they're ready with a plan before it's needed, minimizing risk and uncertainty. They apply logic and practicality so that plans have a high probability of success. They tend to be less inclined to spend too much effort seeking new, unconventional methods if tried and true ones can work.",
+          "growth_opportunities": [
+            "Being patient with people who are less organized and diligent than them",
+            "Recognizing that perfection is difficult and can be stressful to achieve",
+            "Understanding that the impact of emotions on their plans can't be perfectly accounted for",
+            "Staying flexible and not overly rigid; things don't always go as planned"
+          ],
+          "talents": [
+            "Taking direction and seeing the future with a balanced sensibility for how things really work",
+            "Collecting and making sense of numerous data points and information",
+            "Developing, adjusting, and creating backup plans",
+            "Applying reason and practicality to decisions and choices",
+            "Developing precise schedules and timelines",
+            "Reliable execution"
+          ]
+        },
+        "Orchestrator": {
+          "name": "Orchestrator",
+          "tagline": "Orchestrators excel at bringing people together, organizing around them, and mobilizing resources to achieve and exceed expectations. They tend to be planful, precise, engaging and people-oriented.",
+          "overview": "Orchestrators excel at bringing people together and mobilizing them to achieve and exceed expectations. Typical Orchestrators use their preference for order, attention to detail, precision, and reliability to follow through with what they start, bringing people together to achieve desired strategies and goals in a synergistic way. They are skilled in connecting to people and understanding how their gifts and individual personalities can be best tapped into to align with the goals they're charged with meeting. They identify what makes people special and bring out their very best. Other distinguishing characteristics include their drive to set ambitious goals and put in place systematic plans to achieve them. They methodically gather and evaluate relevant information, facts, and data and organize it into good plans, and then push through to ensure those plans produce practical results. They tend to gravitate toward efficient and reliable solutions and frameworks to solve problems. Whether it's planning a life event or solving a business problem, typical Orchestrators are relied on for their ability to bring people and resources to bear in a reliable and practical way to get things done.",
+          "growth_opportunities": [
+            "Appreciating the need to be an imperfectionist at times",
+            "Being at times too anchored to an existing plan, if circumstances require them to change and adapt",
+            "Engaging others with more messy or more unstructured ways of thinking productively"
+          ],
+          "talents": [
+            "Organizing people and their diverse talents",
+            "Being detailed, exacting, and precise",
+            "Being ambitious and setting high standards for themselves and others",
+            "Following through with their tasks and goals",
+            "Seeing potential in people, as well as strengths and weaknesses"
+          ]
+        }
+      },
+      "Producers": {
+        "Implementer": {
+          "name": "Implementer",
+          "tagline": "Implementers organize and structure people and processes to reliably execute tasks. They tend to be precise, reliable, results-oriented and more concrete and practical than philosophical.",
+          "overview": "Strategies and plans are only as good as the people working to achieve them. Implementers are the people who get important jobs and tasks done. Never getting too far ahead of themselves, they have the ability to focus on the task right in front of them. Typical Implementers are distinguished by their organized and orderly approach to the jobs, assignments, and projects they work on. No detail is too small or unimportant to escape their notice and tracking. They follow through and complete what they start and work more comfortably when their priorities are set for them. They create, maintain, and embrace following the rules and structures put in place around them. Other distinguishing characteristics include making decisions using a methodical and systematic approach that yields consistent and expected results. They don't wait to get started on tasks. They don't act impulsively or take unnecessary risks. They tend to resent it when people act irresponsibly and unreliably. They tend to be less drawn to generating new and innovative ideas, but pride themselves on finding the most efficient methods for getting things done. Some Implementers may have a difficult time saying no to requests for assistance. Unexpected change and chaos creates stress for them.",
+          "growth_opportunities": [
+            "Learning to say no and asking for support when overwhelmed",
+            "Negotiating different responsibilities and priorities when necessary",
+            "Being open to change and new ways of doing things",
+            "Balancing short-term practical needs with future possibilities",
+            "Accepting that change is inevitable and learning skills to manage it",
+            "Not being too black and white in how they approach problems"
+          ],
+          "talents": [
+            "Following through, getting things done on time and on schedule",
+            "Focusing on the present and specific details",
+            "Practical, dependable, and orderly",
+            "Calming and reassuring force for team members",
+            "Following procedures and rules and respecting the chain of command"
+          ]
+        },
+        "Investigator": {
+          "name": "Investigator",
+          "tagline": "Investigators are driven to research and analyze information and data to build knowledge and understanding. They tend to be logical and analytical, rigorous, and more reserved and thoughtful than outgoing and expressive.",
+          "overview": "Typical Investigators are logical, systematic thinkers who excel at creating detailed analyses and proposing solutions consistent with their findings and conclusions. Accuracy and objectivity can often be their highest priority. They are keen thinkers who excel at identifying things that don't make sense. This extends to an ability to readily perceive flaws and mistakes and a willingness to call attention to them. They may be more introverted, which can lead them to state their observations and conclusions privately, and tend not to be overly emotional or expressive. They may prefer to work things out in their heads and only share ideas when they are more developed. Other distinguishing characteristics include a reliance on logic and a methodical and objective approach to making decisions. They have a knack for organizing and structuring analytical processes and conclusions. They tend to like puzzles and intellectual challenges and dig deep into subjects and details. They may prefer to work and reflect by themselves. Investigators can tend to take things seriously and may not appreciate those who make light of important matters. Their reliance on logic can leave them perplexed when emotions enter the equation.",
+          "growth_opportunities": [
+            "Being patient with those who are less analytical and methodical",
+            "Recognizing the role of emotion, not just critical thinking in decision-making",
+            "Finding ways to express themselves, including feelings, more openly",
+            "Being more flexible and lighthearted"
+          ],
+          "talents": [
+            "Analyzing without emotional attachment",
+            "Being thorough and systematic in their approach",
+            "Analytical thinking and problem-solving",
+            "Striving for objectivity in their thinking, not sugarcoating what they see as true",
+            "Reflecting internally and thoughtfully before making statements and conclusions"
+          ]
+        },
+        "Technician": {
+          "name": "Technician",
+          "tagline": "Technicians are driven to break down, analyze and solve problems in a methodical and practical way. They tend to be precise, efficient, systematic and pragmatic.",
+          "overview": "Typical Technicians love examining how and why things work the way they do. They roll up their sleeves, take things apart, fix it when broken and put it back together. They pride themselves on being efficient and precise. They have an ability to analyze and dig behind problems and pick up on details and facts that others tend to overlook. They are methodical, practical, detail-oriented, and prefer a clear set of guidelines when setting out to complete tasks. They are impartial and clear headed in their analysis of information and base their judgments on objective reasoning more than emotions. They prefer using commonsensical, reality-tested approaches and straightforward thinking. Other distinguishing characteristics include a strong work ethic to pursue tasks and objectives with focus and resolve. Technicians take a planful, orderly, and precise approach to getting things done. They apply logic and reason to their thinking and rarely spend time thinking about people's quirks and tendencies. They may at times be more oriented to things than people. Technicians may struggle to forge relationships with people who think differently—either those who are highly emotional or those who are too conceptual and idealistic.",
+          "growth_opportunities": [
+            "Appreciating more emergent and less systematic modes of thinking and problem solving",
+            "Avoiding sometimes losing the forest for the trees",
+            "Thinking more creatively and trying new approaches",
+            "Learning to work with people with different personalities and skill sets"
+          ],
+          "talents": [
+            "Structured and technical problem solving",
+            "Focusing on efficiency and reliability",
+            "Being in command of facts and details",
+            "Being precise and rarely making errors or mistakes",
+            "Learning best from hands-on experience"
+          ]
+        }
+      },
+      "Creators": {
+        "Adventurer": {
+          "name": "Adventurer",
+          "tagline": "Adventurers are motivated by taking part in fun, exciting, and adventurous activities and pursuits. They tend to be excitement-seeking, fun-loving, energetic, independent, open to new experiences, and spontaneous.",
+          "overview": "Adventurers are motivated by taking part in fun, exciting, and adventurous activities and pursuits. They are always on the go and on the lookout for new sensations and stimulations, and even more enticingly, work opportunities that provide variety and stimulation. Typical Adventurers have an abundance of energy that they direct into physical and mental activities and in expressing their zest for life and living. They feel most alive when they're juggling multiple tasks and moving quickly down their own path. They often become bored with repetition and will want to move on to new activities that generate new levels of excitement. They have a natural capacity to adapt quickly and easily to changing circumstances. Other distinguishing characteristics include being friendly and engaging. They tend to be spontaneous, emergent, and optimistic. They are often adept at improvising new plans and strategies in the moment, and tend to reject conventional and routine ways of doing things. They prefer to make decisions based on the best available information at the time, rather than depending on a predetermined course of action. Their propensity to change and flex with their environment, in combination with their high energy and independent approach, can make it challenging for others to keep up.",
+          "growth_opportunities": [
+            "Recognizing not every activity pursued needs to be novel to be fulfilling",
+            "Making sure people don't get left in the wake of their high-energy and spontaneous persona",
+            "Making better use of planning, schedules, and deadlines",
+            "Avoiding coming across as too independent-minded or rebellious at times"
+          ],
+          "talents": [
+            "Relishing adventure and excitement",
+            "Being flexible in adjusting to current demands and requirements",
+            "Having high energy, perseverance, and stamina and always being on the go",
+            "Improvising and going with the flow"
+          ]
+        },
+        "Artisan": {
+          "name": "Artisan",
+          "tagline": "Artisans are driven to use their creativity to bring life to beautiful and well-crafted ideas. They tend to be imaginative, detail-oriented and attuned to their own and others' emotions.",
+          "overview": "Artisans are driven to use their creativity to bring life to beautiful and well-crafted ideas. Typical Artisans love to use their imagination and ingenuity to create novel works of art, products, or crafts. They use their attention to detail and precision to perfect their creations and bring them to reality in a way few others can. Intuition and innate instincts guide their quest for originality and independent creation. Other distinguishing characteristics include being independent-minded and preferring to do things their own way. Artisans tend to be curious about new ideas and experiences, and in tune with and sensitive of their own and other people's deeper feelings that enable the creative process and form the basis of their creation and self-expression. They can be critical of their own work, but may be sensitive at times to criticism from others, given how personal their process can be. They may be uncomfortable around people who are too conservative and traditional, and find it difficult to endure situations where they are micromanaged and controlled. Recognition tends to be less important to them than expressing themselves originally and authentically.",
+          "growth_opportunities": [
+            "Seeing outside their creative focus at times",
+            "Resisting the urge to always reinvent the wheel",
+            "Taking direction from others if needed",
+            "Taking constructive suggestions for improvement less personally"
+          ],
+          "talents": [
+            "Using imagination and creativity",
+            "True focus on craftsmanship",
+            "Being independent in their thinking and emotions",
+            "Being attuned to their own and other people's emotions",
+            "Being willing to take risks"
+          ]
+        },
+        "Inventor": {
+            "name": "Inventor",
+            "tagline": "Inventors are driven by coming up with new and innovative ideas, products and solutions. They tend to be creative, open-minded, conceptual, spontaneous and at times disorganized and unstructured.",
+            "overview": "Inventors have high curiosity and creativity, which often leads them to develop new products and ideas. Inventors typically possess a creative and original thinking style, a high degree of comfort with the unknown, and an attraction to the mysterious world that they don't fully understand yet. They're comfortable living in a chaotic and disorganized environment, and prefer trying things out, seeing how they work, and changing things on the fly as firsthand experience dictates. They don't care too much about what other people think about their tendency to shift focus because they're generally comfortable being who they are and love the mental excitement that new ideas stimulate within them. Other distinguishing characteristics include a preference for cutting their own path and doing their own thing. They adjust easily to changes in circumstances and prefer to work without much guidance or direction from others. They generally catch on quickly to complex and abstract concepts. They dig deep into the inner workings of their latest projects and are willing to roll up their sleeves and experiment with new ideas and ways of doing things. Their tendency to lose interest in more practical or routine aspects of the process may translate into spending too much time exploring possibilities versus bringing decisions to closure, and/or a tendency to miss important deadlines and target dates for completion.",
+            "growth_opportunities": [
+            "Balancing exploration of possibilities with making decisions in a timely and efficient way",
+            "Taking care of more practical and routine matters",
+            "Practicing patience with others who may not see what they are seeing",
+            "Following through and completing projects"
+            ],
+            "talents": [
+            "Creating new products, ideas, theories, and services",
+            "Fixing, building, and making things better",
+            "Openness to new possibilities",
+            "Willing to take risks to pursue new ideas",
+            "Using intuition, curiosity, and ability to see unfulfilled needs",
+            "Having unlimited energy and enthusiasm for new projects"
+            ]
+        }
+    },
+    "Seekers": {
+        "Explorer": {
+            "name": "Explorer",
+            "tagline": "Explorers love to take in new knowledge and are drawn to new experiences through intrinsic motivations. They tend to be curious, open-minded, reflective and adaptable.",
+            "overview": "Explorers love to take in new knowledge and are drawn to new experiences through intrinsic motivations. Typical Explorers are driven by discovery, both about themselves and the world. They are spontaneous, curious, and open-minded, more intrigued by all things they don't know than self-impressed by what they already do. They are self-directed and chart their own path independently. They are attracted to ever-new experiences and endeavors, particularly those that include activities with other like-minded explorers and adventurers. They are typically comfortable with taking risks or diving into ambiguity, particularly if they can derive satisfaction and learning from the experience. They handle unfamiliar experiences and challenges with composure, perspective, and equanimity. Explorers tend to be less focused on the destination than the journey. That means they live in the moment, but they also may tend to relish novelty and adapting over pushing through to achieve goals in a practical and reliable way. In work contexts, they may benefit from being paired with those who are more reliable, focused, and planful to keep them grounded and balance their strengths in adaptiveness and independence. Explorers ultimately thrive in contexts rich in growth and discovery, no matter where they end up.",
+            "growth_opportunities": [
+            "Maintaining focus and direction",
+            "Staying organized and pushing through tasks and objectives in a timely way",
+            "Not worrying enough about what might go wrong and planning effectively for it"
+            ],
+            "talents": [
+            "Adapting to changing circumstances",
+            "Being highly inquisitive and curious",
+            "Making the most out of experiences",
+            "Learning from mistakes and seeing them as opportunities to grow",
+            "Maintaining composure and equanimity",
+            "Pursuing things independently at their own direction"
+            ]
+        },
+        "Thinker": {
+            "name": "Thinker",
+            "tagline": "Thinkers are inclined to approach problems in an abstract, philosophical fashion. They naturally seek the deeper meaning of issues that arise in their daily lives. They tend to be conceptual, independent, reflective and open-minded. At times they may be indecisive.",
+            "overview": "Thinkers know their mind is their greatest asset, and focus their intellect on anything that fascinates them in the world around them, naturally contemplating the deeper meaning of any experience or question they confront in work and life. Typical Thinkers like to reason clearly and rationally about problems and solutions, and they particularly enjoy exploring problems and questions that aren't fully understood yet. The more abstract and complex, the more fascinated they can be. When facts and empirical data don't answer a question, they're comfortable bringing theories and models to bear. They strive to see things objectively and use critical analysis to find the best answers and come to the most accurate conclusions they can. Other distinguishing characteristics include a genuine curiosity and comfort exploring the unknown. Discovering how and why things work can be more appealing than applying their insights to more practical ends. They tend to see the acquisition of knowledge as an ongoing process requiring both openness to new things and the ability to evaluate information logically and systematically. They may at times be more comfortable in the realm of ideas than in the world of people's feelings and emotions. Thinkers may be prone to dive deeply into their latest interests, sometimes causing prior tasks or projects to go unfinished. Since they may tend to be very comfortable in the realm of ideas and possibilities, they may at times be slower to take decisive action. Being more independent, they prefer to be left to think and act on their own most of the time, without being directed or micromanaged by others.",
+            "growth_opportunities": [
+            "Being decisive and not only staying in the realm of ideas and possibilities",
+            "Following ideas and projects through to completion",
+            "Recognizing the role of emotion, not just critical thinking, in decision-making",
+            "Developing more effective interpersonal skills",
+            "Recognizing that not everyone can think as deeply or quickly as them"
+            ],
+            "talents": [
+            "Seeking deeper meaning",
+            "Examining, contemplating, and understanding complex questions",
+            "Striving for objectivity and impartiality in decision-making",
+            "Openness to new ideas and perspectives"
+            ]
+        },
+        "Growth Seeker": {
+            "name": "Growth Seeker",
+            "tagline": "Growth Seekers are defined by a deep passion for learning and personal growth and development. They tend to be curious, humble, open to new ideas and experiences, and adaptable.",
+            "overview": "Typical Growth Seekers have an endless fascination with personal growth, meaning they devote themselves to improvement and evolution. They possess a never-ending curiosity about the world and how they fit into it. They have a thirst for knowledge and a need to understand the world and the people in it, particularly in service of personal and professional growth. If it makes them more effective, it's on their to-do list. They are open to any constructive advice, even if it's tough to swallow. They are flexible and adaptive to new experiences and circumstances. Other distinguishing characteristics include being composed, grounded, and balanced in their approach to managing stress and pressure. They love engaging new ideas and information and making sense of things for themselves. They can often be both determined and humble; they love to challenge themselves, but don't stress too much over mistakes made. In fact, they know the ability to reflect well on their failures is key to their personal growth. At times, their desire to reflect inwardly first before acting can slow down their response time. They may need a stronger push to force action and decisiveness. While some Growth Seekers are natural leaders, many are comfortable being good followers. The key is understanding their nature and finding a path that's right for them.",
+            "growth_opportunities": [
+            "Moving from reflection to decisive action",
+            "Sharing knowledge and taking on leadership roles",
+            "Pursuing more defined paths and objectives without letting go of their taste for open-ended discovery"
+            ],
+            "talents": [
+            "Being deeply inquisitive into broad and varied subjects",
+            "Acquiring knowledge, understanding, and wisdom for self-growth",
+            "Remaining calm, cool, and collected under pressure",
+            "Achieving goals independently and being internally motivated",
+            "Adjusting to changing circumstances"
+            ]
+        }
+    },
+    "Fighters": {
+        "Protector": {
+            "name": "Protector",
+            "tagline": "Protectors care about traditions, rules and standards, and are driven by a strong sense of personal duty. They tend to be responsible, direct, traditional and composed.",
+            "overview": "Protectors care about traditions, rules and standards, and are driven by a strong sense of personal duty. A typical Protector's strongest quality is often the personal discipline brought to carrying out their duties and responsibilities. They approach tasks with determination and focus, even when under stress or pressure. They stick to the rules and generally believe that procedures and traditions exist for good reasons; they build both into their daily activities and approach to getting things done. When they see things that don't make sense, they speak up and give others a clear assessment of what they see and think. Other distinguishing characteristics include their precise and structured approach to getting things done. Their preference for order can translate into support for more traditional hierarchies, following the chain of command and a willingness to serve a mission greater than themselves. They readily maintain high standards and hold themselves and others accountable. They may prefer when things are cut and dry and gravitate toward practical, concrete, and tried-and-true solutions rather than new or unconventional ones. They tend to be straightforward, take things seriously, and prefer tasks to be clear, routine, and predictable. They prefer to be just who they are; no pretense or facade. They can sometimes be tripped up by those who are too sensitive or too indulgent in their feelings, and therefore may not express their own emotions openly. Some Protectors can benefit from learning to interact better with different types of people.",
+            "growth_opportunities": [
+            "Being less resistant to change or new ways of doing things",
+            "Understanding there can be exceptions to rules",
+            "Being more flexible and lighthearted when appropriate",
+            "Keeping sight on the long term, not just what's right in front of them",
+            "Learning to let their guard down and trust people"
+            ],
+            "talents": [
+            "Maintaining order and discipline",
+            "Strong sense of duty and responsibility, often to something greater than themselves",
+            "Meeting commitments reliably, not compromising their standards",
+            "Being honest and forthright"
+            ]
+        },
+        "Enforcer": {
+            "name": "Enforcer",
+            "tagline": "Enforcers are driven to engage with the world through reliance on standards, rules, traditions. They tend to be direct and straightforward, traditional and reliable, with high standards for themselves and others.",
+            "overview": "Enforcers engage with the world by following and enforcing its rules and traditions. Typical Enforcers live life by adhering to established norms and procedures and pushing others to follow and be accountable to them. They find comfort in the stability, predictability, and control that rules create, but don't necessarily want to be the one creating them. Their strongest attribute can be their willingness to be direct and blunt, and to maintain a sense of order and discipline. They don't need to be in a position of leadership themselves, but can serve an important role helping others stay in line. They don't mind coming across as harsh or insensitive and are able to put their feelings and opinions aside in service of maintaining high standards for themselves and others. Other distinguishing characteristics include determination and focus in pushing through on tasks and objectives. They stand up for what they believe in and tend not to back down when those beliefs are threatened. They engage in work and decisions using a structured and well-ordered approach that delivers predictable, consistent outcomes. Enforcers' weakness can be the other side of their strength — a tendency to stick to rules even when it may not make sense. Additionally, they may at times be resistant to stepping outside their comfort zone and taking risks.",
+            "growth_opportunities": [
+            "Being more open to change and different ways of doing things",
+            "Understanding there are exceptions to every rule",
+            "Being more sensitive to the needs and feelings of others",
+            "Keeping the long term in perspective, not just what's right in front of them",
+            "Learning to let their guard down, and trusting people"
+            ],
+            "talents": [
+            "Being accountable and responsible",
+            "Being willing to speak the truth even if it hurts",
+            "Meeting commitments, not compromising their standards",
+            "Good work ethic",
+            "Striving for objectivity in decisions and thinking"
+            ]
+        },
+        "Critic": {
+            "name": "Critic",
+            "tagline": "Critics freely express their opinions and love debating different perspectives with others. They tend to be direct, assertive and logical, with high standards for themselves and others.",
+            "overview": "Typical Critics have an ability to give objective input which plays a valuable role in situations where establishing the merits of options and decisions are under consideration. They are particularly adept at pointing out problems and risks that others don't see or are unwilling to raise openly. Perhaps their most evident characteristic is their willingness to directly state their point of view, positive or negative, regardless of how it may come across. They naturally focus on objections and flaws; as a result people may hear the negative more than the positive. They apply and trust rationality to formulate and express their ideas. Critics excel at speaking the truth, even when it's not easy to hear. Other distinguishing characteristics include the energy and stamina to engage in spirited debates with other experts, and enjoy thinking about and engaging on complex issues and ideas. They often pay close attention to details and facts and use them to make calls as they see them. They are methodical in their desire to make accurate assessments. Their weakness can be the other side of their strength — their propensity to forcefully express their positions can make them appear to be naysayers or skeptics. They also may tend to argue for the sake of argument at times and state conclusions too firmly, being less open to seeing what they are missing or understanding where they might be wrong.",
+            "growth_opportunities": [
+            "Remaining open to new information and changing their mind",
+            "Being perceived as overly negative or skeptical",
+            "Recognizing when they're debating outside their wheelhouse",
+            "Seeking areas of agreement rather than just points of disagreement",
+            "Being more sensitive to others' needs and feelings"
+            ],
+            "talents": [
+            "Being willing to speak their mind honestly",
+            "Identifying and raising issues and problems",
+            "Debating opinions and perspectives effectively",
+            "Using logic and reason to formulate the basis of arguments"
+            ]
+        }
+    },
+    "Individualist": {
+        "Individualist": {
+            "name": "Individualist",
+            "tagline": "Individualists walk to the beat of their own drum and find unique ways of expressing themselves and their originality. They tend to be creative, independent, expressive, perceptive and at times sensitive and dramatic.",
+            "overview": "Individualists walk to the beat of their own drum and find unique ways of expressing themselves and their originality. Typical Individualists make an art out of brushing aside tradition and conventions to do things their own way. They are always on the hunt for novel ways of doing things, defying the rules with a flare for the creative and sometimes for the dramatic. They are driven to express their individuality and don't let anyone else define who they are or dictate what they do. Individualists tend to feel deeply and tap into an emotional layer that can drive their decisions and actions. At the same time, it can also mean they can be temperamental and experience self-doubt. They can be particularly sensitive to criticism. Individualists tend to seek and appreciate things that are new, beautiful, and different. They have a talent for seeing things in a unique and thought-provoking way, and can chafe at being micromanaged or controlled. At their best, they are highly creative, inspired, and bring a new and different perspective to any situation. However, they can tend to be reactive, withdrawn, and anxious in difficult situations, and sometimes can act out and be rebellious just for the sake of it, which can get in the way of their success and relationships with people who don't see things the same way as they do.",
+            "growth_opportunities": [
+            "Experiencing moodiness and self-doubt",
+            "Being rash and obstinate rather than measured and deliberate at times",
+            "Knowing they are in control of their own destiny, not a victim of fate",
+            "Taking constructive suggestions for improvement less personally"
+            ],
+            "talents": [
+            "Expressing uniqueness, creativity, and originality",
+            "Disrupting the status quo and provoking new thinking in others",
+            "Having the courage to think independently or be different",
+            "Having a high degree of sensitivity and perceptiveness of others and the world around them"
+            ]
+        }
+    }
+  }
+}

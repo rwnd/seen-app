@@ -1,0 +1,71 @@
+{
+  "uuid": "74c244d4-ddf6-4ccd-ac45-fb366b5b88ce",
+  "status": "ready",
+  "created_at": "2026-06-13T11:06:41.905588+00:00",
+  "archetype_slug": "quietleader",
+  "archetype_name": "Quiet Leader",
+  "archetype_category": "Leaders",
+  "question_category": "unsaid",
+  "question_text": "What's the thought you keep finishing in your head but never say out loud?",
+  "user_response": "Something I keep thinking but never say is that I want to be more bold and alpha wrt leadership. The quiet part is coming from my introvert nature and often I find others who are loud and extroverted leaders do much better. The charisma and confidence of them is something I try to build up in myself.",
+  "narrator_slug": "oprah",
+  "narrator_name": "Oprah Winfrey",
+  "narrator_tone_label": "Warm & seeing you",
+  "narrator_initials": "OW",
+  "narrator_avatar_color": "#6B3FA0",
+  "narrator_photo": "oprah.jpg",
+  "narrator_signature_line": "I hear what you didn't say out loud.",
+  "narrator_voice_id": "shimmer",
+  "steps": {
+    "text": {
+      "status": "ready"
+    },
+    "image": {
+      "status": "ready"
+    },
+    "voice": {
+      "status": "ready"
+    }
+  },
+  "audio_file": "74c244d4-ddf6-4ccd-ac45-fb366b5b88ce_audio.mp3",
+  "comic_file": "74c244d4-ddf6-4ccd-ac45-fb366b5b88ce_comic.png",
+  "has_audio": true,
+  "has_comic": true,
+  "reflection": "Oh honey, I hear you wrestling with something so many powerful leaders carry \u2014 this belief that your natural way of being isn't enough. You're watching those loud, extroverted leaders and thinking you need to become them to succeed. But what strikes me is how you describe wanting to be 'more bold and alpha' \u2014 as if your quiet strength isn't already a form of boldness. There's something beautiful and painful about how you're trying to build up what you think you lack, when the very thing you're questioning \u2014 that thoughtful, reflective presence \u2014 might be exactly what the world needs from you. You're standing at the edge of your own lighthouse, convinced you need to shout louder when ships are already finding their way to your steady beam.",
+  "the_line": "Your quiet isn't the absence of power \u2014 it's power choosing its moment.",
+  "comic_page": {
+    "archetype_character": "A composed figure in simple, professional attire \u2014 dark blazer, understated but confident posture, same serene expression throughout",
+    "narrator_character": "A warm, composed figure in soft light, leaning in with full attention, studio or intimate interview setting",
+    "setting": "A misty harbor at twilight where different types of lighthouses stand along the coastline",
+    "panels": [
+      {
+        "size": "full_width",
+        "scene": "Wide shot of a harbor with multiple lighthouses \u2014 some tall and flashing dramatically, others steady and constant. Ships navigate between them in the mist. The quiet leader stands on a pier, watching the loud, strobing towers.",
+        "caption": "Watching others shine so bright",
+        "narration": "",
+        "is_climax": false
+      },
+      {
+        "size": "half",
+        "scene": "Close-up of the narrator in warm, intimate lighting, leaning forward with knowing eyes and gentle smile, hands clasped, creating a safe space for truth.",
+        "caption": "",
+        "narration": "But what if quiet was your superpower?",
+        "is_climax": false
+      },
+      {
+        "size": "half",
+        "scene": "The quiet leader turns away from the flashy lighthouses, walking toward their own steady beacon \u2014 smaller but unwavering, cutting through the fog with consistent, reliable light.",
+        "caption": "",
+        "narration": "",
+        "is_climax": false
+      },
+      {
+        "size": "full_width",
+        "scene": "The quiet leader now stands atop their lighthouse, hand on the steady beam. Ships below navigate safely by its constant light while the flashy towers flicker and fade. The leader's silhouette is calm, grounded, powerful in stillness.",
+        "caption": "Leading from the center of calm",
+        "narration": "",
+        "is_climax": true
+      }
+    ]
+  }
+}

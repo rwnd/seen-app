@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% block title %}SEEN — Reflect{% endblock %}
+{% block body_class %}input-body{% endblock %}
+
+{% block content %}
+<div class="input-page page-shell">
+  <header class="input-hero">
+    <p class="input-eyebrow">PrinciplesYou × SEEN</p>
+    <h1 class="input-title">What would you look like<br>if someone truly saw you?</h1>
+    <p class="input-lede">
+      Pick your archetype. Answer one question honestly.<br>
+      A voice witnesses you — in words, in sound, in an image.<br>
+      <em>One moment. Not a conversation. Just you, seen.</em>
+    </p>
+    <ol class="input-steps" aria-label="How it works">
+      <li class="input-step"><span>Choose archetype</span></li>
+      <li class="input-step"><span>Answer honestly</span></li>
+      <li class="input-step"><span>Pick a voice</span></li>
+      <li class="input-step"><span>Receive your page</span></li>
+    </ol>
+  </header>
+
+  <div class="input-card content-card">
+    <form id="reflect-form" method="post" action="/reflect">
+      <input type="hidden" name="archetype_slug" id="archetype_slug">
+      <input type="hidden" name="question_category" id="question_category">
+      <input type="hidden" name="narrator_slug" id="narrator_slug">
+
+      <section class="form-section" id="section-archetype">
+        <p class="section-label">Your archetype</p>
+        <div class="archetype-combobox" id="archetype-combobox">
+          <input
+            type="text"
+            id="archetype-input"
+            class="archetype-input"
+            placeholder="Search or select your archetype…"
+            autocomplete="off"
+            role="combobox"
+            aria-expanded="false"
+            aria-controls="archetype-listbox"
+            aria-autocomplete="list"
+            aria-label="Choose your archetype"
+          >
+          <button type="button" id="archetype-toggle" class="archetype-toggle" aria-label="Show all archetypes" tabindex="-1">▾</button>
+          <ul id="archetype-listbox" class="archetype-listbox hidden" role="listbox" aria-label="Archetypes"></ul>
+        </div>
+        <div id="archetype-card" class="archetype-card hidden">
+          <div class="archetype-badge">
+            <img id="archetype-img" src="" alt="">
+          </div>
+          <div class="archetype-card-copy">
+            <span id="archetype-category-tag" class="category-tag"></span>
+            <h3 id="archetype-name"></h3>
+            <p id="archetype-tagline" class="tagline"></p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider hidden" id="divider-questions">
+
+      <section class="form-section section-reveal hidden" id="section-questions">
+        <p class="section-label">What would you like to reflect on?</p>
+        <div class="reflect-split" id="reflect-split">
+          <nav class="reflect-questions" role="listbox" aria-label="Reflection questions">
+            {% set question_meta = {
+              'identity': {'index': '01', 'hint': 'What I know about myself'},
+              'fear': {'index': '02', 'hint': 'What I am carrying right now'},
+              'memory': {'index': '03', 'hint': 'A moment that stayed with me'},
+              'unsaid': {'index': '04', 'hint': 'Something I have not said yet'}
+            } %}
+            {% for key, label in question_labels.items() %}
+            <button
+              type="button"
+              class="question-tile"
+              data-category="{{ key }}"
+              role="option"
+              aria-selected="false"
+            >
+              <span class="question-tile-index">{{ question_meta[key].index }}</span>
+              <span class="question-tile-copy">
+                <span class="question-tile-label">{{ label }}</span>
+                <span class="question-tile-hint">{{ question_meta[key].hint }}</span>
+              </span>
+            </button>
+            {% endfor %}
+          </nav>
+          <div class="reflect-answer" id="reflect-answer">
+            <div class="reflect-answer-empty" id="reflect-answer-empty">
+              <p class="reflect-answer-empty-title">Choose a thread</p>
+              <p class="reflect-answer-empty-copy">Pick one doorway on the left — then answer in your own words.</p>
+            </div>
+            <div class="reflect-answer-form hidden" id="reflect-answer-form">
+              <p class="reflect-answer-kicker">Your question</p>
+              <p id="question-text" class="question-prompt"></p>
+              <div id="starter-list" class="starters hidden" role="listbox" aria-label="Sentence starters"></div>
+              <textarea id="user_response" name="user_response" rows="6" placeholder="Write honestly — no one else will see this until you share it…"></textarea>
+              <p class="char-count"><span id="char-count">0</span> characters <span class="char-min">(min 20)</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="section-divider hidden" id="divider-narrator">
+
+      <section class="form-section section-reveal hidden" id="section-narrator">
+        <p class="section-label">Who should witness this?</p>
+        <div class="narrator-grid">
+          {% for slug, n in narrators.items() %}
+          <button type="button" class="narrator-tile" data-slug="{{ slug }}">
+            <strong>{{ n.tone_label }}</strong>
+            <span>{{ n.tone_description }}</span>
+          </button>
+          {% endfor %}
+        </div>
+        <p class="narrator-reveal-hint">Your narrator will be revealed on the next page</p>
+      </section>
+
+      <button type="submit" id="go-btn" class="go-btn" disabled>Begin reflection</button>
+    </form>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const ARCHETYPES = {{ archetypes | tojson }};
+  const ARCHETYPE_CATEGORIES = {{ categories | tojson }};
+  const NARRATORS = {{ narrators | tojson }};
+</script>
+<script src="/static/input.js"></script>
+{% endblock %}

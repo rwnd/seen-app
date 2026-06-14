@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% block title %}SEEN — Your reflection{% endblock %}
+{% block body_class %}result-body{% endblock %}
+
+{% block content %}
+{% set image_pending = result.steps.image.status in ['pending', 'generating'] %}
+{% set voice_pending = result.steps.voice.status in ['pending', 'generating'] %}
+{% set hold_payoff = image_pending or voice_pending %}
+
+<div
+  class="result-stage{% if hold_payoff %} is-held{% endif %}"
+  id="result-stage"
+  data-hold-payoff="{{ 'true' if hold_payoff else 'false' }}"
+>
+  <div class="result-curtain" id="result-curtain" aria-live="polite"{% if not hold_payoff %} hidden{% endif %}>
+    <div class="result-curtain-inner">
+      <p class="result-curtain-eyebrow">Almost ready</p>
+      <h2 class="result-curtain-title">
+        <span class="result-curtain-narrator">{{ result.narrator_name }}</span>
+        is witnessing your words…
+      </h2>
+      <p class="result-curtain-sub" id="curtain-sub">Composing your page and voice</p>
+      <ul class="curtain-steps" aria-label="Finishing your reflection">
+        {% if result.steps.image.status != 'skipped' %}
+        <li id="curtain-step-image" class="curtain-step" data-step="image">Your page</li>
+        {% endif %}
+        {% if result.steps.voice.status != 'skipped' %}
+        <li id="curtain-step-voice" class="curtain-step" data-step="voice">Voice</li>
+        {% endif %}
+      </ul>
+      <div class="result-curtain-spinner" aria-hidden="true"></div>
+    </div>
+  </div>
+
+  <div class="result-layout" id="result-layout">
+    <div class="result-left">
+      <div class="narrator-strip" id="narrator-strip">
+        {% if result.narrator_photo %}
+        <img class="narrator-photo" src="/static/images/narrators/{{ result.narrator_photo }}" alt="">
+        {% else %}
+        <div class="narrator-avatar" style="background: {{ result.narrator_avatar_color }}">
+          {{ result.narrator_initials }}
+        </div>
+        {% endif %}
+        <div>
+          <p class="narrator-strip-label">Reflected by</p>
+          <p class="narrator-strip-name">{{ result.narrator_name }}</p>
+          <p class="narrator-strip-sig">{{ result.narrator_signature_line }}</p>
+        </div>
+      </div>
+
+      <div class="audio-player" id="audio-player">
+        <audio id="reflection-audio" preload="auto"></audio>
+        <div class="audio-controls-row">
+          <button type="button" id="play-pause" class="play-btn" aria-label="Play" disabled>▶</button>
+          <div class="audio-track">
+            <div id="audio-progress" class="audio-progress"></div>
+          </div>
+        </div>
+        <p id="audio-status" class="audio-status">Loading voice…</p>
+      </div>
+
+      <div class="result-left-scroll">
+        {% if result.user_response %}
+        <section class="origin-block" id="origin-block" aria-label="What you shared">
+          <p class="origin-eyebrow">What you brought</p>
+          <div class="origin-archetype">
+            {% if result.archetype_slug %}
+            <img
+              class="origin-archetype-img"
+              src="/static/images/archetypes/{{ result.archetype_slug }}.png"
+              alt="{{ result.archetype_name }}"
+            >
+            {% endif %}
+            <div>
+              <p class="origin-archetype-name">{{ result.archetype_name }}</p>
+              <p class="origin-archetype-cat">{{ result.archetype_category }}</p>
+            </div>
+          </div>
+          <div class="origin-question">
+            <span class="origin-category-pill">{{ result.question_category_label or result.question_category }}</span>
+            {% if result.question_text %}
+            <p class="origin-question-text">{{ result.question_text }}</p>
+            {% endif %}
+          </div>
+          <blockquote class="origin-response">
+            <p>{{ result.user_response }}</p>
+          </blockquote>
+          {% if result.narrator_tone_label %}
+          <p class="origin-witness">Witnessed in a <strong>{{ result.narrator_tone_label }}</strong> voice</p>
+          {% endif %}
+        </section>
+        {% endif %}
+
+        <p class="reflection-divider-label">What they saw</p>
+        <p id="reflection-text" class="reflection-body hidden">{{ result.reflection or '' }}</p>
+
+        <div class="the-line-block" id="the-line-block">
+          <p class="the-line">
+            <span class="quote-mark">"</span><span id="the-line-text">{{ result.the_line or '' }}</span><span class="quote-mark">"</span>
+          </p>
+          <p class="the-line-for">A reflection for the {{ result.archetype_name }}</p>
+        </div>
+      </div>
+
+      <div class="result-actions">
+        <a href="/" class="btn-primary">Reflect again</a>
+        <a href="/gallery" class="btn-secondary">View gallery</a>
+        <button type="button" id="share-btn" class="btn-secondary">Copy link</button>
+      </div>
+    </div>
+
+    <div class="result-right" id="result-right">
+      <div class="result-image-wrap" id="result-image-wrap">
+        <img id="result-image" class="result-image hidden" alt="Your reflection — illustrated page">
+        <div id="image-fallback" class="result-image-fallback hidden">
+          <h2>{{ result.archetype_name }}</h2>
+          <p>"{{ result.the_line or '' }}"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  window.SEEN_UUID = {{ result.uuid | tojson }};
+  window.SEEN_RESULT = {{ result | tojson }};
+</script>
+<script src="/static/result.js"></script>
+{% endblock %}

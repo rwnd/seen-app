@@ -1,0 +1,71 @@
+{
+  "uuid": "25ad8d8c-67c5-4434-be13-e258c24da35a",
+  "status": "ready",
+  "created_at": "2026-06-13T08:30:38.985012+00:00",
+  "archetype_slug": "helper",
+  "archetype_name": "Helper",
+  "archetype_category": "Givers",
+  "question_category": "memory",
+  "question_text": "Describe a time you gave everything \u2014 and still felt unseen.",
+  "user_response": "I gave my best and what came back was 100x more. I shared a very normal conversation with a younger person to help them / nudge them towards taking steps to do masters. they are now doing so well, finished masters and working at a great job and came back and have always kept in touch and thanking me which is a very good warm fuzzy feeling",
+  "narrator_slug": "miranda",
+  "narrator_name": "Miranda Priestly",
+  "narrator_tone_label": "Sharp & precise",
+  "narrator_initials": "MP",
+  "narrator_avatar_color": "#2C2C2C",
+  "narrator_photo": "miranda.jpg",
+  "narrator_signature_line": "That's all.",
+  "narrator_voice_id": "nova",
+  "steps": {
+    "text": {
+      "status": "ready"
+    },
+    "image": {
+      "status": "ready"
+    },
+    "voice": {
+      "status": "ready"
+    }
+  },
+  "audio_file": "25ad8d8c-67c5-4434-be13-e258c24da35a_audio.mp3",
+  "comic_file": "25ad8d8c-67c5-4434-be13-e258c24da35a_comic.png",
+  "has_audio": true,
+  "has_comic": true,
+  "reflection": "You describe warmth and gratitude flowing back to you, yet notice how you frame it \u2014 'what came back was 100x more.' Even in receiving appreciation, you measure your worth through the mathematics of giving and getting. The younger person succeeded, yes, but your satisfaction comes not from their achievement but from their continued acknowledgment of your role in it. You need their gratitude to validate that your giving mattered. This is the Helper's trap \u2014 love that requires constant confirmation, service that creates dependency rather than true freedom.",
+  "the_line": "You gave them wings, but kept the receipt.",
+  "comic_page": {
+    "archetype_character": "A figure in soft, flowing clothes that seem to dissolve at the edges, hands perpetually extended in offering, face gentle but eyes searching for validation",
+    "narrator_character": "A sharp-suited figure at a tall window, back partially to the reader, reflection visible in the glass, ice-blue city light",
+    "setting": "A vast garden where every plant grows in perfect rows, tended by invisible hands, with paths that all lead back to a central fountain",
+    "panels": [
+      {
+        "size": "full_width",
+        "scene": "Wide shot of an endless garden with perfectly tended rows of flourishing plants, each one connected by golden threads to a central fountain where the Helper figure kneels, hands cupped to catch falling water",
+        "caption": "Everything grows through my hands",
+        "narration": "",
+        "is_climax": false
+      },
+      {
+        "size": "half",
+        "scene": "The narrator figure stands at a tall window overlooking the garden, their reflection sharp in the glass while the garden blurs beyond",
+        "caption": "",
+        "narration": "But who tends the tender?",
+        "is_climax": false
+      },
+      {
+        "size": "half",
+        "scene": "Close-up of the Helper's hands releasing golden threads, watching them float away as distant figures walk free paths, no longer tethered",
+        "caption": "",
+        "narration": "",
+        "is_climax": false
+      },
+      {
+        "size": "full_width",
+        "scene": "The Helper stands alone by the fountain, no longer kneeling, hands at their sides, watching their reflection in still water as the garden grows wild and beautiful around them",
+        "caption": "Love without keeping score",
+        "narration": "",
+        "is_climax": true
+      }
+    ]
+  }
+}

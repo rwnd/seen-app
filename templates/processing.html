@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}SEEN — Witnessing{% endblock %}
+{% block body_class %}processing-body{% endblock %}
+
+{% block content %}
+<div class="processing-stage" id="processing-stage">
+  <div class="processing-inner">
+    <p class="processing-eyebrow">Witnessing</p>
+    <h1 id="processing-title" class="processing-title">Reading your words…</h1>
+    <p id="processing-phrase" class="processing-phrase">Finding the shape of your thinking…</p>
+    <ul class="processing-steps" id="processing-steps" aria-label="Creation progress">
+      <li id="step-text" class="processing-step" data-step="text">Reflection</li>
+      <li id="step-image" class="processing-step" data-step="image">Your page</li>
+      <li id="step-voice" class="processing-step" data-step="voice">Voice</li>
+    </ul>
+    <div id="processing-progress" class="processing-spinner" aria-hidden="true"></div>
+    <div id="processing-error" class="processing-error hidden">
+      <p id="processing-error-message" class="processing-error-message"></p>
+      <div id="processing-error-actions" class="processing-error-actions hidden">
+        <form id="retry-form" method="post">
+          <button type="submit" class="btn-primary">Try again</button>
+        </form>
+        <a href="/" class="btn-secondary btn-on-dark">Back to home</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  window.SEEN_UUID = {{ uuid | tojson }};
+</script>
+<script src="/static/processing.js"></script>
+{% endblock %}

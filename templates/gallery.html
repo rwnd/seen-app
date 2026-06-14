@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}SEEN — Gallery{% endblock %}
+
+{% block content %}
+<div class="gallery-page page-shell">
+  <header class="page-header">
+    <p class="eyebrow">Gallery</p>
+    <h1>Past reflections</h1>
+    <p class="subtitle" id="gallery-subtitle">
+      {% if items %}<span id="gallery-count">{{ items|length }}</span> reflection{% if items|length != 1 %}s{% endif %} — every answer, witnessed.{% else %}Every answer, witnessed.{% endif %}
+    </p>
+  </header>
+
+  {% if not items %}
+  <div class="content-card empty-gallery-card">
+    <p class="empty-gallery-title">No reflections yet.</p>
+    <p class="empty-gallery-copy">Pick an archetype, answer honestly, and your reflection will live here.</p>
+    <a href="/" class="go-btn" style="width:auto;display:inline-flex;">Start reflecting</a>
+  </div>
+  {% else %}
+  <div class="gallery-filters" role="tablist" aria-label="Filter by archetype">
+    <button type="button" class="gallery-filter is-active" data-filter="all" role="tab" aria-selected="true">
+      All <span class="gallery-filter-count">{{ items|length }}</span>
+    </button>
+    {% for a in filter_archetypes %}
+    <button type="button" class="gallery-filter" data-filter="{{ a.slug }}" role="tab" aria-selected="false">
+      {{ a.name }} <span class="gallery-filter-count">{{ a.count }}</span>
+    </button>
+    {% endfor %}
+  </div>
+
+  <div class="gallery-grid" id="gallery-grid">
+    {% for item in items %}
+    <a
+      href="/result/{{ item.uuid }}"
+      class="gallery-card"
+      data-archetype-slug="{{ item.archetype_slug }}"
+      data-archetype-name="{{ item.archetype_name }}"
+    >
+      {% if (item.has_comic or item.comic_file) and item.comic_file %}
+      <img class="gallery-card-img" src="/data/{{ item.comic_file }}" alt="" loading="lazy">
+      {% else %}
+      <div class="gallery-card-img-fallback" aria-hidden="true"></div>
+      {% endif %}
+      <div class="gallery-card-body">
+        <p class="gallery-archetype">{{ item.archetype_name }}</p>
+        <p class="gallery-line">"{{ item.the_line }}"</p>
+        <p class="gallery-meta">{{ item.archetype_category }} · {{ item.created_at[:10] if item.created_at else '' }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div id="gallery-empty-filter" class="gallery-empty-filter hidden">
+    <p>No reflections for this archetype yet.</p>
+    <button type="button" class="btn-secondary" id="gallery-clear-filter">Show all</button>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% if items %}
+<script src="/static/gallery.js"></script>
+{% endif %}
+{% endblock %}

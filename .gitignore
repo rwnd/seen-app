@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+temp/
+.vscode/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated reflection output (visible in editor, not committed)
+data/results/**
+!data/results/.gitkeep
+data/logs/**
+!data/logs/.gitkeep
+
+!static/images/narrators/.gitkeep
+!static/images/archetypes/.gitkeep
