@@ -54,7 +54,7 @@ Archetype names, categories, and descriptions align with PrinciplesYou. If you f
 ## Demo
 
 <div align="center">
-  <video src="https://github.com/rwnd/seen-app/releases/download/demo-v1/demo-github.mp4" controls width="720"></video>
+  <video src="https://raw.githubusercontent.com/rwnd/seen-app/main/docs/assets/demo.mp4" controls width="720"></video>
 </div>
 
 <p align="center">
